@@ -528,35 +528,3 @@ window.rconfWar = "";
     );
 
 
-{
-  "@context" : {
-    "@vocab" : "http://schema.org/"
-  },
-  "@type" : "LocalBusiness",
-  "name" : "Veneno Tattoo The Gallery",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Avenida de la Cruz del Campo 18",
-    "addressLocality" : "Sevilla",
-    "addressRegion" : "SEVILLA",
-    "postalCode" : "41005",
-    "addressCountry" : "ES"
-  },
-  "geo" : {
-    "@type" : "GeoCoordinates",
-    "latitude" : "37.3865319",
-    "longitude" : "-5.965460999999"
-  },
-  "url" : "https://www.venenotattoothegallery.com",
-  "telephone" : "+34640134968",
-  "email" : "venenotattothegallery@gmail.com",
-  "logo" : "https://de.cdn-website.com/921b35354d7e492c9a21021fbb4cd5be/dms3rep/multi/logo-veneno-tattoo-the-gallery.jpg",
-  "sameAs" : [ "https://wa.me/+34640134968", "https://facebook.com/venenotattoostudio", "https://instagram.com/venenotattoostudio/" ],
-  "openingHoursSpecification" : [ {
-    "@type" : "OpeningHoursSpecification",
-    "dayOfWeek" : [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" ],
-    "opens" : "11:30",
-    "closes" : "21:00"
-  } ],
-  "@id" : "https://www.venenotattoothegallery.com"
-}
