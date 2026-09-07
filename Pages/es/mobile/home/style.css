@@ -1,0 +1,467 @@
+/*
+ * Clean base stylesheet
+ * Recreated from the exported Duda runtime CSS.
+ * Keeps the original design tokens, responsive font sizes,
+ * video behavior and basic layout helpers without Duda selectors.
+ */
+
+/* =========================================================
+   DESIGN TOKENS
+   ========================================================= */
+
+:root {
+  --color-1: rgba(30, 30, 30, 1);
+  --color-2: rgba(255, 255, 255, 1);
+  --color-3: rgba(84, 151, 84, 1);
+  --color-4: rgba(68, 145, 203, 1);
+  --color-5: rgba(30, 97, 147, 1);
+  --color-6: rgba(227, 92, 67, 1);
+  --color-7: rgba(229, 229, 229, 1);
+  --color-8: rgba(0, 0, 0, 0);
+  --color-9: rgba(0, 0, 0, 1);
+
+  --max-content-width: 1440px;
+
+  --font-size: 16px;
+}
+
+
+/* =========================================================
+   GLOBAL BASICS
+   ========================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-2);
+  color: var(--color-1);
+}
+
+img[width][height] {
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+}
+
+
+/* =========================================================
+   CONTENT WIDTH
+   ========================================================= */
+
+.site-content,
+.site-content-inner,
+.page-content,
+.section-content {
+  width: 100%;
+  max-width: var(--max-content-width);
+  margin-inline: auto;
+}
+
+
+/* =========================================================
+   VIDEO BACKGROUNDS
+   Based on the original .videobgwrapper / .videobgframe
+   ========================================================= */
+
+.videobgwrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.videobgframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 101%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: fill;
+  border: 0;
+}
+
+.video-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-background > *:not(.videobgwrapper) {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* =========================================================
+   RESPONSIVE GALLERY MINIMUM HEIGHTS
+   ========================================================= */
+
+.photo-gallery {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .photo-gallery {
+    min-height: 80vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .photo-gallery {
+    min-height: 45vh;
+  }
+}
+
+@media (min-width: 1025px) {
+  .photo-gallery {
+    min-height: 45vh;
+  }
+}
+
+
+/* =========================================================
+   PAGE-ONLY VISIBILITY
+   Replacement for Duda's data-show-on-page-only behavior
+   ========================================================= */
+
+[data-show-on-page-only] {
+  display: none !important;
+}
+
+.page-home [data-show-on-page-only="home"],
+body[data-page="home"] [data-show-on-page-only="home"] {
+  display: block !important;
+}
+
+
+/* =========================================================
+   STICKY HEADER
+   ========================================================= */
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.sticky-header + .site-content {
+  margin-top: 0;
+}
+
+.hamburger-header-container {
+  position: relative;
+}
+
+
+/* =========================================================
+   RESPONSIVE VISIBILITY
+   ========================================================= */
+
+@media (min-width: 1025px) {
+  [data-hidden-on-desktop] {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  [data-hidden-on-tablet] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  [data-hidden-on-mobile] {
+    display: none !important;
+  }
+}
+
+
+/* =========================================================
+   RESPONSIVE FONT SIZES
+   Based on the exported Duda size tokens
+   ========================================================= */
+
+@media (min-width: 1025px) {
+  .size-96,
+  .font-size-96 {
+    --font-size: 96px;
+    font-size: var(--font-size);
+  }
+
+  .size-28,
+  .font-size-28 {
+    --font-size: 28px;
+    font-size: var(--font-size);
+  }
+
+  .size-32,
+  .font-size-32 {
+    --font-size: 32px;
+    font-size: var(--font-size);
+  }
+
+  .size-16,
+  .font-size-16 {
+    --font-size: 16px;
+    font-size: var(--font-size);
+  }
+
+  .size-12,
+  .font-size-12 {
+    --font-size: 12px;
+    font-size: var(--font-size);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .t-size-60,
+  .t-font-size-60 {
+    --font-size: 60px;
+    font-size: var(--font-size);
+  }
+
+  .t-size-24,
+  .t-font-size-24 {
+    --font-size: 24px;
+    font-size: var(--font-size);
+  }
+
+  .t-size-27,
+  .t-font-size-27 {
+    --font-size: 27px;
+    font-size: var(--font-size);
+  }
+
+  .t-size-16,
+  .t-font-size-16 {
+    --font-size: 16px;
+    font-size: var(--font-size);
+  }
+
+  .t-size-12,
+  .t-font-size-12 {
+    --font-size: 12px;
+    font-size: var(--font-size);
+  }
+}
+
+@media (max-width: 767px) {
+  .m-size-40,
+  .m-font-size-40 {
+    --font-size: 40px;
+    font-size: var(--font-size);
+  }
+
+  .m-size-22,
+  .m-font-size-22 {
+    --font-size: 22px;
+    font-size: var(--font-size);
+  }
+
+  .m-size-26,
+  .m-font-size-26 {
+    --font-size: 26px;
+    font-size: var(--font-size);
+  }
+
+  .m-size-16,
+  .m-font-size-16 {
+    --font-size: 16px;
+    font-size: var(--font-size);
+  }
+
+  .m-size-12,
+  .m-font-size-12 {
+    --font-size: 12px;
+    font-size: var(--font-size);
+  }
+}
+
+
+/* =========================================================
+   TEXT ALIGNMENT
+   ========================================================= */
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .m-text-align-left {
+    text-align: left;
+  }
+
+  .m-text-align-center {
+    text-align: center;
+  }
+
+  .m-text-align-right {
+    text-align: right;
+  }
+}
+
+
+/* =========================================================
+   CLEAN PARAGRAPH / CONTENT HELPERS
+   These replace the most common visual role of
+   .dmNewParagraph without depending on Duda.
+   ========================================================= */
+
+.paragraph,
+.content-paragraph,
+.text-block {
+  width: 100%;
+}
+
+.paragraph p,
+.content-paragraph p,
+.text-block p {
+  margin: 0;
+}
+
+
+/* =========================================================
+   FLEX ELEMENT HELPERS
+   Keeps the layout concept without Duda-specific runtime.
+   ========================================================= */
+
+.flex-element {
+  min-width: 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =========================================================
+   ANIMATIONS
+   The original export hides animated elements until the
+   runtime starts them. This clean version avoids hiding
+   content by default.
+   ========================================================= */
+
+[data-anim-desktop],
+[data-anim-extended] {
+  visibility: visible;
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* =========================================================
+   ACCESSIBILITY / REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* =========================================================
+   FONT FALLBACKS
+   The primary Google Fonts are loaded from index.html.
+   ========================================================= */
+
+.font-lato {
+  font-family: "Lato", Arial, sans-serif;
+}
+
+.font-fjalla {
+  font-family: "Fjalla One", Arial, sans-serif;
+}
+
+.font-bebas {
+  font-family: "Bebas Neue", Arial, sans-serif;
+}
+
+.font-cinzel {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+.font-unifraktur {
+  font-family: "UnifrakturCook", serif;
+}
+
+
+/* =========================================================
+   UTILITY
+   ========================================================= */
+
+.hidden {
+  display: none !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
