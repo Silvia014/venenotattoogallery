@@ -1,0 +1,28 @@
+RewriteEngine On
+
+# Homepage
+RewriteRule ^$ Pages/es/desktop/home/index.html [L]
+
+# Spanish pages
+RewriteRule ^tatuadores/?$ Pages/es/desktop/tatuadores/index.html [L]
+RewriteRule ^el-estudio/?$ Pages/es/desktop/el-estudio/index.html [L]
+RewriteRule ^contacto/?$ Pages/es/desktop/contacto/index.html [L]
+RewriteRule ^blog/?$ Pages/es/desktop/blog/index.html [L]
+RewriteRule ^aviso-legal/?$ Pages/es/desktop/aviso-legal/index.html [L]
+RewriteRule ^politica-de-privacidad/?$ Pages/es/desktop/politica-de-privacidad/index.html [L]
+RewriteRule ^politica-de-cookies/?$ Pages/es/desktop/politica-de-cookies/index.html [L]
+RewriteRule ^declaracion-de-accesibilidad/?$ Pages/es/desktop/declaracion-de-accesibilidad/index.html [L]
+RewriteRule ^gracias/?$ Pages/es/desktop/gracias/index.html [L]
+
+# English
+RewriteRule ^en-gb/?$ Pages/en-gb/desktop/home/index.html [L]
+RewriteRule ^en-gb/tatuadores/?$ Pages/en-gb/desktop/tatuadores/index.html [L]
+RewriteRule ^en-gb/el-estudio/?$ Pages/en-gb/desktop/el-estudio/index.html [L]
+RewriteRule ^en-gb/contacto/?$ Pages/en-gb/desktop/contacto/index.html [L]
+RewriteRule ^en-gb/blog/?$ Pages/en-gb/desktop/blog/index.html [L]
+
+# French
+RewriteRule ^fr/?$ Pages/fr/desktop/home/index.html [L]
+
+# German
+RewriteRule ^de/?$ Pages/de/desktop/home/index.html [L]
