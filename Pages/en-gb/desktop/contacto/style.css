@@ -413,6 +413,17 @@ img[width][height] {
     box-sizing:border-box !important;
   }
 
+  #bda2724d > .flex-element.widget-wrapper + .flex-element.widget-wrapper {
+    margin-top:0 !important;
+  }
+
+  #bda2724d .dmNewParagraph h3,
+  #bda2724d .dmNewParagraph h3 span {
+    margin:0 !important;
+    padding:0 !important;
+    line-height:1.2 !important;
+  }
+
   *#dm .dmInner div[id="1072549461"] .open-hours-data {
     display:flex !important;
     flex-direction:column !important;
