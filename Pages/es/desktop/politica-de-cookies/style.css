@@ -1237,3 +1237,32 @@ img[width][height] {
 #cookie-settings-wrapper {
     display: none !important;
 }
+
+/* COOKIE POLICY - MATCH AVISO LEGAL */
+
+#badd3cb8 {
+    background-color: #000000 !important;
+}
+
+*#dm .dmInner div.u_1700555471 {
+    color: #ffffff !important;
+}
+
+#policy-container {
+    background: transparent !important;
+    color: #ffffff !important;
+}
+
+#policy-container h1,
+#policy-container h2,
+#policy-container h3,
+#policy-container h4,
+#policy-container p,
+#policy-container li {
+    color: #ffffff !important;
+}
+
+#d866afae,
+#cookie-settings-wrapper {
+    display: none !important;
+}
