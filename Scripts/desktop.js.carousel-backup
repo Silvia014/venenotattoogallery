@@ -339,27 +339,17 @@
 
             render();
 
-            const nextButtons = Array.from(
-                wrapper.querySelectorAll('[data-auto="RuntimeSlider-navigation-next"]')
-            );
-            const prevButtons = Array.from(
-                wrapper.querySelectorAll('[data-auto="RuntimeSlider-navigation-back"]')
-            );
-
+            const nextButtons = Array.from(document.querySelectorAll('[data-auto="RuntimeSlider-navigation-next"]'));
+            const prevButtons = Array.from(document.querySelectorAll('[data-auto="RuntimeSlider-navigation-back"]'));
             nextButtons.forEach((button) => {
-                button.onclick = (event) => {
-                    event.preventDefault();
-                    event.stopPropagation();
-                    move(1);
-                };
+                if (button.closest('[data-auto="slider-wrapper"]') === wrapper || button.closest('[data-auto="slider-wrapper"]')?.contains(wrapper)) {
+                    button.onclick = () => move(1);
+                }
             });
-
             prevButtons.forEach((button) => {
-                button.onclick = (event) => {
-                    event.preventDefault();
-                    event.stopPropagation();
-                    move(-1);
-                };
+                if (button.closest('[data-auto="slider-wrapper"]') === wrapper || button.closest('[data-auto="slider-wrapper"]')?.contains(wrapper)) {
+                    button.onclick = () => move(-1);
+                }
             });
 
             const intervalSeconds = Number(payload?.props?.autoPagination?.intervalInSeconds || 5);
