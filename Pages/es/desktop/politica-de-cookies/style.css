@@ -1196,3 +1196,44 @@ img[width][height] {
   size-adjust: 84.1814%;
   line-gap-override: 0%;
  }
+
+
+/* =========================================================
+   COOKIE POLICY — MATCH LEGAL PAGES
+   ========================================================= */
+
+/* Main legal content background */
+#badd3cb8 {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+/* Page title */
+#1700555471 {
+    color: #ffffff !important;
+}
+
+#1700555471 h1,
+#1700555471 h1 span {
+    color: #ffffff !important;
+}
+
+/* Cookie policy content */
+#policy-container {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+#policy-container h1,
+#policy-container h2,
+#policy-container h3,
+#policy-container h4,
+#policy-container p,
+#policy-container li {
+    color: #ffffff !important;
+}
+
+/* Remove Termly controls from the page */
+#d866afae,
+#cookie-settings-wrapper {
+    display: none !important;
+}
