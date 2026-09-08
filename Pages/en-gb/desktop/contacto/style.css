@@ -391,13 +391,26 @@ img[width][height] {
   }
 
   *#dm .dmInner div.u_1235978467 .dmforminput {
-    padding-block:3px !important;
-    padding-inline:2px !important;
+    padding:0 !important;
+    margin:0 0 10px !important;
+    display:block !important;
+    width:100% !important;
+    max-width:100% !important;
+    box-sizing:border-box !important;
   }
 
   *#dm .dmInner div.u_1235978467 .spacing-container {
-    margin-block:-3px !important;
-    margin-inline:-2px !important;
+    margin:0 !important;
+    width:100% !important;
+    max-width:100% !important;
+  }
+
+  *#dm .dmInner div.u_1235978467 .dmforminput input,
+  *#dm .dmInner div.u_1235978467 .dmforminput textarea,
+  *#dm .dmInner div.u_1235978467 .dmforminput select {
+    width:100% !important;
+    max-width:100% !important;
+    box-sizing:border-box !important;
   }
 
   *#dm .dmInner div.u_1235978467 .dmwidget-title {
