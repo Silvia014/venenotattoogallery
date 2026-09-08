@@ -413,6 +413,34 @@ img[width][height] {
     box-sizing:border-box !important;
   }
 
+  *#dm .dmInner div[id="1072549461"] .open-hours-data {
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    justify-content:center !important;
+    width:100% !important;
+    text-align:center !important;
+    gap:6px !important;
+  }
+
+  *#dm .dmInner div[id="1072549461"] .open-hours-item {
+    display:flex !important;
+    flex-direction:row !important;
+    justify-content:center !important;
+    align-items:center !important;
+    gap:8px !important;
+    width:100% !important;
+    text-align:center !important;
+  }
+
+  *#dm .dmInner div[id="1072549461"] .open-hours-item dt,
+  *#dm .dmInner div[id="1072549461"] .open-hours-item dd,
+  *#dm .dmInner div[id="1072549461"] .open-hours-item time {
+    margin:0 !important;
+    text-align:center !important;
+    display:inline-block !important;
+  }
+
   *#dm .dmInner div.u_1235978467 .dmwidget-title {
     font-weight:400 !important;
     font-size:32px !important;
