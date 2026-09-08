@@ -272,14 +272,98 @@
         return null == defs[a] && (defs[a] = new Def), defs[a]
     }
     window.waitForDeferred = function (b, a, c) {
-        let d = window?.getDeferred?.(b);
-        d
-            ? d.promise.then(a)
+        const d = window?.getDeferred?.(b);
+        if (!d || b === 'ssrLibrariesLoaded') {
+            if (typeof a === 'function') {
+                setTimeout(a, 0);
+            }
+            return;
+        }
+
+        d.promise && typeof d.promise.then === 'function'
+            ? d.promise.then(() => {
+                if (typeof a === 'function') {
+                    a();
+                }
+            })
             : c && ["complete", "interactive"].includes(document.readyState)
                 ? setTimeout(a, 1)
                 : c
                     ? document.addEventListener("DOMContentLoaded", a)
                     : console.error(`Deferred  does not exist`);
+    };
+
+    window.SSRRuntime = window.SSRRuntime || {};
+    window.SSRRuntime.RuntimeReactHelpers = window.SSRRuntime.RuntimeReactHelpers || {};
+    window.SSRRuntime.RuntimeReactHelpers.initiateWidget = function (payload) {
+        if (!payload || !payload.type || payload.type !== 'SSR_IMAGE_SLIDER') {
+            return;
+        }
+
+        const initSlider = (wrapper) => {
+            if (!wrapper || wrapper.dataset.sliderFallbackInit === 'true') {
+                return;
+            }
+            wrapper.dataset.sliderFallbackInit = 'true';
+
+            const film = wrapper.querySelector('[data-auto="slider-filmRole"]');
+            const slides = Array.from(wrapper.querySelectorAll('[data-auto^="slideSlot"]'));
+            if (!film || slides.length === 0) {
+                return;
+            }
+
+            let index = slides.findIndex((slide) => slide.getAttribute('data-auto')?.includes('slideSlotActive'));
+            if (index < 0) {
+                index = 0;
+            }
+
+            const render = () => {
+                slides.forEach((slide, frameIndex) => {
+                    const active = frameIndex === index;
+                    slide.classList.toggle('d-ext-mediaSlider-slidesContainer__slide--active', active);
+                    slide.setAttribute('data-auto', active
+                        ? slide.getAttribute('data-auto').replace(/\s*slideSlotActive\b/g, '').trim() + ' slideSlotActive'
+                        : slide.getAttribute('data-auto').replace(/\s*slideSlotActive\b/g, '').trim());
+                    slide.style.visibility = active ? 'visible' : 'hidden';
+                    slide.style.opacity = active ? '1' : '0';
+                    slide.style.position = 'relative';
+                    slide.style.pointerEvents = active ? 'auto' : 'none';
+                });
+                film.style.transform = 'translateX(-' + (index * 100) + '%)';
+            };
+
+            const move = (direction) => {
+                index = (index + direction + slides.length) % slides.length;
+                render();
+            };
+
+            render();
+
+            const nextButtons = Array.from(document.querySelectorAll('[data-auto="RuntimeSlider-navigation-next"]'));
+            const prevButtons = Array.from(document.querySelectorAll('[data-auto="RuntimeSlider-navigation-back"]'));
+            nextButtons.forEach((button) => {
+                if (button.closest('[data-auto="slider-wrapper"]') === wrapper || button.closest('[data-auto="slider-wrapper"]')?.contains(wrapper)) {
+                    button.onclick = () => move(1);
+                }
+            });
+            prevButtons.forEach((button) => {
+                if (button.closest('[data-auto="slider-wrapper"]') === wrapper || button.closest('[data-auto="slider-wrapper"]')?.contains(wrapper)) {
+                    button.onclick = () => move(-1);
+                }
+            });
+
+            const intervalSeconds = Number(payload?.props?.autoPagination?.intervalInSeconds || 5);
+            const shouldPauseOnHover = !!payload?.props?.autoPagination?.pauseOnHover;
+            if (shouldPauseOnHover) {
+                wrapper.addEventListener('mouseenter', () => clearInterval(wrapper.__fallbackSliderTimer));
+                wrapper.addEventListener('mouseleave', () => {
+                    wrapper.__fallbackSliderTimer = setInterval(() => move(1), intervalSeconds * 1000);
+                });
+            }
+            wrapper.__fallbackSliderTimer = setInterval(() => move(1), intervalSeconds * 1000);
+        };
+
+        document.querySelectorAll('[data-auto="slider-wrapper"]').forEach(initSlider);
     };
 
 
