@@ -2295,3 +2295,62 @@ img[width][height] {
   size-adjust: 84.1814%;
   line-gap-override: 0%;
  }
+
+/* OpenStreetMap / Leaflet */
+.mapContainer.leaflet-map {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 300px !important;
+}
+
+.veneno-leaflet-map {
+    width: 100% !important;
+    height: 300px !important;
+    min-height: 300px !important;
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+#1821766062,
+#1807922910 {
+    height: 332px !important;
+    min-height: 332px !important;
+    width: 100% !important;
+}
+
+#1821766062 .veneno-leaflet-map,
+#1807922910 .veneno-leaflet-map {
+    height: 100% !important;
+    min-height: 332px !important;
+    width: 100% !important;
+}
+#1821766062,
+#1807922910 {
+    height: 332px !important;
+    min-height: 332px !important;
+    width: 100% !important;
+}
+
+#1821766062 .veneno-leaflet-map,
+#1807922910 .veneno-leaflet-map {
+    height: 100% !important;
+    min-height: 332px !important;
+    width: 100% !important;
+}
+
+/* MAP FIX */
+#1821766062,
+#1807922910 {
+    display: block !important;
+    height: 332px !important;
+    min-height: 332px !important;
+    flex: none !important;
+}
+
+#1821766062 .veneno-leaflet-map,
+#1807922910 .veneno-leaflet-map {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 332px !important;
+}

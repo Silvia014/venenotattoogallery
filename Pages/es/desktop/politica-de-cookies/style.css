@@ -1266,3 +1266,12 @@ img[width][height] {
 #cookie-settings-wrapper {
     display: none !important;
 }
+
+/* Cookie Policy title hover effect */
+#1700555471 {
+    transition: transform 0.4s ease-in-out !important;
+}
+
+#1700555471:hover {
+    transform: translateY(-10px) !important;
+}
