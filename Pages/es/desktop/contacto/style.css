@@ -2354,3 +2354,82 @@ img[width][height] {
     height: 100% !important;
     min-height: 332px !important;
 }
+
+/* LEAFLET MAPS */
+
+/* Main contact map */
+div[id="1821766062"] {
+    display: block !important;
+    width: 100% !important;
+    height: 332px !important;
+    min-height: 332px !important;
+    max-height: 332px !important;
+    flex: 0 0 332px !important;
+}
+
+div[id="1821766062"] .veneno-leaflet-map {
+    display: block !important;
+    width: 100% !important;
+    height: 332px !important;
+    min-height: 332px !important;
+}
+
+/* Footer map */
+div[id="1807922910"] {
+    display: block !important;
+    width: 100% !important;
+    height: 160px !important;
+    min-height: 160px !important;
+    max-height: 160px !important;
+    flex: 0 0 160px !important;
+}
+
+div[id="1807922910"] .veneno-leaflet-map {
+    display: block !important;
+    width: 100% !important;
+    height: 160px !important;
+    min-height: 160px !important;
+    max-height: 160px !important;
+}
+
+/* CONTACT FORM - FIX LAYOUT */
+
+div[id="1244596046"] label,
+div[id="1574621640"] label {
+    display: none !important;
+}
+
+div[id="1244596046"] .dmforminput,
+div[id="1574621640"] .dmforminput {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 12px 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+div[id="1244596046"] input[type="text"],
+div[id="1244596046"] input[type="email"],
+div[id="1574621640"] input[type="text"],
+div[id="1574621640"] input[type="email"],
+div[id="1244596046"] textarea,
+div[id="1574621640"] textarea {
+    display: block !important;
+    width: 80% !important;
+    max-width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+}
+
+div[id="1244596046"] textarea,
+div[id="1574621640"] textarea {
+    min-height: 150px !important;
+}
+
+div[id="1244596046"] form,
+div[id="1574621640"] form {
+    width: 100% !important;
+    max-width: 100% !important;
+}
