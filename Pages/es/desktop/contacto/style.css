@@ -2433,3 +2433,8 @@ div[id="1574621640"] form {
     width: 100% !important;
     max-width: 100% !important;
 }
+
+/* Ocultar segundo formulario */
+#b1a5e27b {
+    display: none !important;
+}
