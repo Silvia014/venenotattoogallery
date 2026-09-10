@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:g-custom="http://base.google.com/cns/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Blogs de Veneno Tattoo The Gallery</title>
+    <link>https://www.venenotattoothegallery.com</link>
+    <description>Conócenos a través de nuestros blogs</description>
+    <atom:link href="https://www.venenotattoothegallery.com/feed/rss2" type="application/rss+xml" rel="self" />
+    <image>
+      <title>Blogs de Veneno Tattoo The Gallery</title>
+      <url>https://de.cdn-website.com/921b35354d7e492c9a21021fbb4cd5be/dms3rep/multi/-+110.jpg</url>
+      <link>https://www.venenotattoothegallery.com</link>
+    </image>
+    <item>
+      <title>Cómo transformar una idea en un diseño único en Veneno Tattoo The Gallery</title>
+      <link>https://www.venenotattoothegallery.com/como-transformar-una-idea-en-un-diseno-unico-en-veneno-tattoo-the-gallery</link>
+      <description>Un tatuaje inolvidable no nace de una plantilla: nace de una conversación sincera, de tu historia y de un diseño creado a tu medida.</description>
+      <enclosure url="https://de.cdn-website.com/921b35354d7e492c9a21021fbb4cd5be/dms3rep/multi/imagen-dc653bb1.png" length="2261767" type="image/png" />
+      <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+      <guid>https://www.venenotattoothegallery.com/como-transformar-una-idea-en-un-diseno-unico-en-veneno-tattoo-the-gallery</guid>
+      <g-custom:tags type="string">tatuajes,cuidado de tatuajes,higiene tatuaje,consejos tatuajes</g-custom:tags>
+      <media:content medium="image" url="https://de.cdn-website.com/921b35354d7e492c9a21021fbb4cd5be/dms3rep/multi/imagen-dc653bb1.jpg">
+        <media:description>thumbnail</media:description>
+      </media:content>
+      <media:content medium="image" url="https://de.cdn-website.com/921b35354d7e492c9a21021fbb4cd5be/dms3rep/multi/imagen-dc653bb1.png">
+        <media:description>main image</media:description>
+      </media:content>
+    </item>
+    <item>
+      <title>Qué debes saber antes de hacerte un tatuaje: consejos, riesgos y cuidados posteriores.</title>
+      <link>https://www.venenotattoothegallery.com/ todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje</link>
+      <description>Infórmate sobre los riesgos, los cuidados y los precios antes de hacerte un tatuaje.</description>
+      <enclosure url="https://de.cdn-website.com/921b35354d7e492c9a21021fbb4cd5be/dms3rep/multi/-+109+%281%29.jpg" length="295110" type="image/jpeg" />
+      <pubDate>Sun, 31 May 2026 17:02:54 GMT</pubDate>
+      <guid>https://www.venenotattoothegallery.com/ todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje</guid>
+      <g-custom:tags type="string">tatuajes,errores tatuajes,tatuajes principiantes,cuidado de tatuajes,higiene tatuaje,consejos tatuajes</g-custom:tags>
+      <media:content medium="image" url="https://de.cdn-website.com/921b35354d7e492c9a21021fbb4cd5be/dms3rep/multi/-+095.jpg">
+        <media:description>thumbnail</media:description>
+      </media:content>
+      <media:content medium="image" url="https://de.cdn-website.com/921b35354d7e492c9a21021fbb4cd5be/dms3rep/multi/-+109+%281%29.jpg">
+        <media:description>main image</media:description>
+      </media:content>
+    </item>
+  </channel>
+</rss>

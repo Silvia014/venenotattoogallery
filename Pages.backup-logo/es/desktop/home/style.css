@@ -1,0 +1,119 @@
+
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}@media (min-width:768px) and (max-width:1024px){.responsiveTablet #dm .dmInner .hide-for-medium,[data-hidden-on-tablet]{display:none!important}}
+    
+
+
+
+    :root {
+  --color_1: rgba(30, 30, 30, 1);
+  --color_2: rgba(255, 255, 255, 1);
+  --color_3: rgba(84, 151, 84, 1);
+  --color_4: rgba(68, 145, 203, 1);
+  --color_5: rgba(30, 97, 147, 1);
+  --color_6: rgba(227, 92, 67, 1);
+  --color_7: rgba(229, 229, 229, 1);
+  --color_8: rgba(0, 0, 0, 0);
+  --color_9: rgba(0,0,0,1);
+  --max-content-width_1: 1440px;
+}
+
+img[width][height] {
+  height: auto;
+}
+
+  body[data-page-alias="home"] #dm [data-show-on-page-only="home"] {
+    display: block !important;
+  }
+
+
+
+
+    
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+    @media (min-width: 1025px) { [data-version] .size-96, [data-version] .font-size-96 {--font-size: 96;}[data-version] .size-28, [data-version] .font-size-28 {--font-size: 28;}[data-version] .size-32, [data-version] .font-size-32 {--font-size: 32;}[data-version] .size-16, [data-version] .font-size-16 {--font-size: 16;}[data-version] .size-12, [data-version] .font-size-12 {--font-size: 12;} }@media (min-width: 768px) and (max-width: 1024px) { [data-version] .t-size-60, [data-version] .t-font-size-60 {--font-size: 60;}[data-version] .t-size-24, [data-version] .t-font-size-24 {--font-size: 24;}[data-version] .t-size-27, [data-version] .t-font-size-27 {--font-size: 27;}[data-version] .t-size-16, [data-version] .t-font-size-16 {--font-size: 16;}[data-version] .t-size-12, [data-version] .t-font-size-12 {--font-size: 12;} }@media (max-width: 767px) { [data-version] .m-size-40, [data-version] .m-font-size-40 {--font-size: 40;}[data-version] .m-size-22, [data-version] .m-font-size-22 {--font-size: 22;}[data-version] .m-size-26, [data-version] .m-font-size-26 {--font-size: 26;}[data-version] .m-size-16, [data-version] .m-font-size-16 {--font-size: 16;}[data-version] .m-size-12, [data-version] .m-font-size-12 {--font-size: 12;} }
+
+
+
+
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+  #dmRoot:not(.editGrid) .flex-element [data-anim-extended] {
+    visibility: hidden;
+  }
+
+
+
+    @font-face {
+  font-family: "Lato Fallback";
+  src: local('Arial');
+  ascent-override: 101.3181%;
+  descent-override: 21.865%;
+  size-adjust: 97.4159%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Fjalla One Fallback";
+  src: local('Arial');
+  ascent-override: 114.9994%;
+  descent-override: 28.2767%;
+  size-adjust: 87.7212%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Bebas Neue Fallback";
+  src: local('Arial');
+  ascent-override: 116.5002%;
+  descent-override: 38.8334%;
+  size-adjust: 77.2531%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Cinzel Fallback";
+  src: local('Arial');
+  ascent-override: 76.7937%;
+  descent-override: 29.2697%;
+  size-adjust: 127.0938%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Arial Fallback";
+  src: local('Arial');
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "UnifrakturCook Fallback";
+  src: local('Arial');
+  ascent-override: 122.3873%;
+  descent-override: 33.062%;
+  size-adjust: 84.1814%;
+  line-gap-override: 0%;
+ }
+
+/* FIX CAROUSEL IMAGES */
+#widget_5mb [data-grab="slide-media"] {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+#widget_5mb [data-grab="slide-media"] img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+}

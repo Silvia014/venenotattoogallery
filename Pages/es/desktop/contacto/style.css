@@ -2438,3 +2438,23 @@ div[id="1574621640"] form {
 #b1a5e27b {
     display: none !important;
 }
+
+/* Smaller header logo */
+#dmFlexHeaderContainer img[data-dm-image-path*="logo-veneno"] {
+    width: 72px !important;
+    height: auto !important;
+}
+
+@media (max-width: 767px) {
+    #dmFlexHeaderContainer img[data-dm-image-path*="logo-veneno"] {
+        width: 70px !important;
+    }
+}
+/* Footer copyright */
+#6dc5c5ff {
+    transform: translateX(50%) !important;
+}
+
+#989bb5b8 {
+    margin-left: 50% !important;
+}
