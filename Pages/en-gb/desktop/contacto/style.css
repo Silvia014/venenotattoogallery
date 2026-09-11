@@ -2619,3 +2619,123 @@ img[width][height] {
   size-adjust: 84.1814%;
   line-gap-override: 0%;
  }
+
+
+/* Veneno custom contact form */
+#veneno-contact-container {
+    width: 100% !important;
+    max-width: 620px !important;
+    margin: 40px auto !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+#veneno-contact-form {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 16px !important;
+}
+
+#veneno-contact-form input[type="text"],
+#veneno-contact-form input[type="email"],
+#veneno-contact-form input[type="tel"],
+#veneno-contact-form textarea {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 16px 18px !important;
+    margin: 0 !important;
+    background: #050505 !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    border-radius: 0 !important;
+    font-family: inherit !important;
+    font-size: 15px !important;
+    outline: none !important;
+}
+
+#veneno-contact-form textarea {
+    min-height: 150px !important;
+    resize: vertical !important;
+}
+
+#veneno-contact-form input::placeholder,
+#veneno-contact-form textarea::placeholder {
+    color: #fff !important;
+    opacity: .85 !important;
+}
+
+#veneno-contact-form input:focus,
+#veneno-contact-form textarea:focus {
+    border-color: #549757 !important;
+}
+
+#veneno-contact-form label {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+
+#veneno-contact-form label input[type="checkbox"] {
+    width: 18px !important;
+    min-width: 18px !important;
+    height: 18px !important;
+    margin: 2px 0 0 !important;
+    accent-color: #549757 !important;
+}
+
+#veneno-contact-form button {
+    width: 100% !important;
+    min-height: 55px !important;
+    margin-top: 8px !important;
+    padding: 15px 25px !important;
+    background: #050505 !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    border-radius: 0 !important;
+    font-family: inherit !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+}
+
+#veneno-contact-form button:hover {
+    background: #549757 !important;
+    border-color: #549757 !important;
+}
+
+#veneno-form-message {
+    display: none !important;
+    margin: 10px 0 0 !important;
+    color: #549757 !important;
+    text-align: center !important;
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+}
+
+@media (max-width: 767px) {
+    #veneno-contact-container {
+        width: 90% !important;
+        max-width: none !important;
+        margin: 30px auto !important;
+    }
+
+    #veneno-contact-form {
+        gap: 14px !important;
+    }
+
+    #veneno-contact-form input[type="text"],
+    #veneno-contact-form input[type="email"],
+    #veneno-contact-form input[type="tel"],
+    #veneno-contact-form textarea {
+        font-size: 16px !important;
+        padding: 14px !important;
+    }
+}
+
+[data-widget-type="form"] {
+    display: none !important;
+}
