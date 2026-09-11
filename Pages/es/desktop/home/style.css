@@ -147,3 +147,18 @@ img[width][height] {
     padding: 10px 0 !important;
     font-size: 14px !important;
 }
+
+/* HOME - mostrar solo la primera imagen del carrusel principal */
+#2688724972 [data-auto="slider-filmRole"] > div:not(:first-child) {
+    display: none !important;
+}
+
+/* Desactivar movimiento y paginación */
+#2688724972 [data-auto="slider-filmRole"] {
+    transform: translateX(0) !important;
+    transition: none !important;
+}
+
+#2688724972 [data-grab="pagination-container"] {
+    display: none !important;
+}
