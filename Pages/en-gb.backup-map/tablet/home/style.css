@@ -335,7 +335,7 @@ img[width][height] {
 }
 #\31 9881ae7 {
     background-color: rgba(0, 0, 0, 1);
-    background-image: url("/Resources/images/211c6789-c4d6-41d2-bc48-ec5114c8b969-2880w.jpg");
+    background-image: url("/Resources/images/211c6789-c4d6-41d2-bc48-ec5114c8b969-1280w.jpg");
     border-radius: 0px 0px 0px 0px;
 }
     
@@ -797,7 +797,7 @@ img[width][height] {
 }
 #\37 b52c5cd {
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("/Resources/images/6%20%287%29-2880w.jpeg");
+    background-image: url("/Resources/images/6%20%287%29-1280w.jpeg");
     background-attachment: fixed;
 }
     
@@ -1625,8 +1625,6 @@ img[width][height] {
     grid-area: 1 / 1 / 2 / 2;
 }
 }
-@media (min-width: 1025px) {
-}
 @media (min-width: 768px) and (max-width: 1024px) {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -2063,41 +2061,3 @@ img[width][height] {
   size-adjust: 84.1814%;
   line-gap-override: 0%;
  }
-
-/* WhatsApp above Leaflet map - mobile */
-@media (max-width: 767px) {
-    #dmFlexStickyContainer {
-        position: fixed !important;
-        z-index: 2147483647 !important;
-    }
-
-    #flex-sticky {
-        z-index: 2147483647 !important;
-    }
-
-    #flex-sticky .dmSocialWhatsapp
-    #flex-sticky .socialHubIcon {
-        position: relative !important;
-        z-index: 2147483647 !important;
-    }
-
-    .veneno-leaflet-map,
-    .veneno-leaflet-map .leaflet-container,
-    .veneno-leaflet-map .leaflet-pane,
-    .veneno-leaflet-map .leaflet-control-container {
-        z-index: 0 !important;
-    }
-}
-/* Dark overlay over background video */
-.videobgwrapper::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.35);
-    z-index: 1;
-    pointer-events: none;
-}
-
-.videobgframe {
-    z-index: 0;
-}
