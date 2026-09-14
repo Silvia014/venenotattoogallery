@@ -1262,3 +1262,269 @@ img[width][height] {
   size-adjust: 84.1814%;
   line-gap-override: 0%;
  }
+
+/* ===== VENENO ENGLISH BLOG ===== */
+
+#dmFirstContainer,
+#dmFirstContainer .dmBody,
+#dmFirstContainer .dmRespRow,
+#dmFirstContainer .flex-element.section,
+#dmFirstContainer .flex-element.grid,
+#widget_7ss {
+    background-color: #000000 !important;
+}
+
+#widget_7ss.veneno-blog-list {
+    width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+#widget_7ss .veneno-blog-grid {
+    width: 100% !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 35px 20px 60px !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+    box-sizing: border-box !important;
+}
+
+#widget_7ss .veneno-blog-card {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    background: #fff !important;
+    overflow: hidden !important;
+    box-shadow: 0 3px 15px rgba(0,0,0,.12) !important;
+}
+
+#widget_7ss .veneno-blog-card > a {
+    display: block !important;
+    line-height: 0 !important;
+}
+
+#widget_7ss .veneno-blog-card img {
+    display: block !important;
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+}
+
+#widget_7ss .veneno-blog-card-content {
+    display: block !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 24px !important;
+    box-sizing: border-box !important;
+    color: #111 !important;
+}
+
+#widget_7ss .veneno-blog-date {
+    display: block !important;
+    margin-bottom: 10px !important;
+    color: #666 !important;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+}
+
+#widget_7ss .veneno-blog-card h2 {
+    display: block !important;
+    margin: 0 0 14px !important;
+    padding: 0 !important;
+    color: #111 !important;
+    font-size: 22px !important;
+    line-height: 1.3 !important;
+}
+
+#widget_7ss .veneno-blog-card h2 a {
+    color: #111 !important;
+    text-decoration: none !important;
+}
+
+#widget_7ss .veneno-blog-card p {
+    display: block !important;
+    margin: 0 0 20px !important;
+    color: #444 !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+}
+
+#widget_7ss .veneno-blog-read-more {
+    display: inline-block !important;
+    color: #111 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+    #widget_7ss .veneno-blog-grid {
+        grid-template-columns: 1fr !important;
+        padding: 25px 15px 40px !important;
+    }
+
+    #widget_7ss .veneno-blog-card img {
+        height: 220px !important;
+    }
+
+    #widget_7ss .veneno-blog-card h2 {
+        font-size: 20px !important;
+    }
+}
+
+
+/* ===== FIX ENGLISH BLOG Duda containers ===== */
+
+#63f75a206a61e8121ae32555,
+#63f75a206a61e8121ae32557,
+#63f75a206a61e8121ae32558,
+#63f75a206a61e8121ae32559,
+#widget_7ss {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    box-sizing: border-box !important;
+}
+
+#widget_7ss {
+    position: relative !important;
+    display: block !important;
+    overflow: visible !important;
+}
+
+#widget_7ss .veneno-blog-grid {
+    position: relative !important;
+    display: grid !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+#widget_7ss .veneno-blog-card {
+    position: relative !important;
+    display: block !important;
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+
+/* ===== ENGLISH BLOG - FORCE CARD STYLES ===== */
+
+.veneno-blog-list {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    background: #000 !important;
+}
+
+.veneno-blog-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 30px !important;
+    width: 100% !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 40px 20px 60px !important;
+    box-sizing: border-box !important;
+}
+
+.veneno-blog-card {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+}
+
+.veneno-blog-card > a {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+}
+
+.veneno-blog-card img {
+    display: block !important;
+    width: 100% !important;
+    height: 250px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: cover !important;
+}
+
+.veneno-blog-card-content {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 24px !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    background: #fff !important;
+}
+
+.veneno-blog-card h2,
+.veneno-blog-card h2 a {
+    display: block !important;
+    margin: 0 0 15px !important;
+    padding: 0 !important;
+    color: #111 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 22px !important;
+    line-height: 1.3 !important;
+    text-decoration: none !important;
+}
+
+.veneno-blog-card p {
+    display: block !important;
+    margin: 0 0 20px !important;
+    padding: 0 !important;
+    color: #444 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+}
+
+.veneno-blog-date {
+    display: block !important;
+    margin: 0 0 10px !important;
+    color: #666 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 12px !important;
+}
+
+.veneno-blog-read-more {
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #111 !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+    .veneno-blog-grid {
+        grid-template-columns: 1fr !important;
+        padding: 25px 15px 40px !important;
+    }
+
+    .veneno-blog-card img {
+        height: 220px !important;
+    }
+}
+
+
+/* Header separator */
+#dmFirstContainer {
+    border-top: 1px solid rgba(255, 255, 255, 0.35) !important;
+}
+
