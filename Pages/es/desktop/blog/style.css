@@ -547,7 +547,7 @@ img[width][height] {
 }
     
 #\36 2d6a167a824ca526194d9a5 {
-    background-color: rgba(232, 255, 133, 1);
+    background-color: rgb(0, 0, 0);
 }
 }
 @media all {
@@ -925,7 +925,7 @@ img[width][height] {
 @media (min-width: 768px) and (max-width: 1024px) {
     
 #\36 3f75a206a61e8121ae32557 {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(0, 0, 0);
 }
     
 #\36 3f75a206a61e8121ae32559 {
