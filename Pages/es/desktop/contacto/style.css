@@ -771,10 +771,9 @@ img[width][height] {
 }
     
 #\32 dc0c439 {
-    min-height: 199px;
+    min-height: 8px;
     column-gap: 4%;
-    row-gap: 7px;
-    width: 58.37%;
+    row-gap: 24px;       
     align-items: center;
     min-width: 4%;
     justify-content: flex-start;
@@ -783,12 +782,12 @@ img[width][height] {
     order: 3;
     border-radius: 10px 10px 10px 10px;
     border-width: 2px 2px 2px 2px;
-    border-color: rgba(84,151,84,1) rgba(84,151,84,1) rgba(84,151,84,1) rgba(84,151,84,1);
+    border-color: rgb(0, 0, 0);
     border-style: solid;
     justify-self: auto;
     align-self: auto;
     height: auto;
-    margin: 0% 0% 0% 0%;
+    
     grid-area: auto / auto / auto / auto;
 }
 }

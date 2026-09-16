@@ -1511,3 +1511,29 @@ img[width][height] {
 #1583227833 h1 {
     margin: 0 !important;
 }
+/* WhatsApp always above Leaflet */
+#dmFlexStickyContainer {
+    position: fixed !important;
+    z-index: 2147483647 !important;
+}
+
+#dmFlexStickyContainer .socialHubWrapper,
+#dmFlexStickyContainer .socialHubInnerDiv,
+#dmFlexStickyContainer .socialHubIcon,
+#dmFlexStickyContainer .dmSocialWhatsapp {
+    position: relative !important;
+    z-index: 2147483647 !important;
+}
+
+#flex-sticky {
+    z-index: 999999 !important;
+}
+
+/* Keep Leaflet underneath WhatsApp */
+.veneno-leaflet-map,
+.veneno-leaflet-map .leaflet-container,
+.veneno-leaflet-map .leaflet-map-pane,
+.veneno-leaflet-map .leaflet-pane,
+.veneno-leaflet-map .leaflet-control-container {
+    z-index: 0 !important;
+}
