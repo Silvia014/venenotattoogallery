@@ -690,9 +690,9 @@ img[width][height] {
     width: 100.00%;
     height: 394px;
     min-height: 100px;
-    max-width: 100%;
+    max-width: 1400%;
     align-self: center;
-    margin-left: 0px;
+    margin-left: auto;
     margin-right: 0px;
 }
 }
