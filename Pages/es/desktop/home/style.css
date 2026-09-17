@@ -234,3 +234,164 @@ img[width][height] {
     font-style: normal !important;
 }
 
+/* =========================================
+   VENENO CUSTOM IDEAS CAROUSEL
+   ========================================= */
+
+#venenoIdeasCarousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 520px;
+    overflow: hidden;
+    background: #000;
+}
+
+#venenoIdeasCarousel .veneno-ideas-track {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#venenoIdeasCarousel .veneno-ideas-slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s ease;
+}
+
+#venenoIdeasCarousel .veneno-ideas-slide.is-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
+
+#venenoIdeasCarousel .veneno-ideas-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#venenoIdeasCarousel .veneno-ideas-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+#venenoIdeasCarousel .veneno-ideas-content {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 60px;
+    text-align: center;
+    color: #fff;
+}
+
+#venenoIdeasCarousel .veneno-ideas-content h3 {
+    margin: 0 0 16px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+#venenoIdeasCarousel .veneno-ideas-content p {
+    max-width: 650px;
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#venenoIdeasCarousel .veneno-ideas-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    width: 52px;
+    height: 52px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+#venenoIdeasCarousel .veneno-ideas-prev {
+    left: 20px;
+}
+
+#venenoIdeasCarousel .veneno-ideas-next {
+    right: 20px;
+}
+
+#venenoIdeasCarousel .veneno-ideas-arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#venenoIdeasCarousel .veneno-ideas-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 5;
+    display: flex;
+    gap: 8px;
+    transform: translateX(-50%);
+}
+
+#venenoIdeasCarousel .veneno-ideas-dot {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+#venenoIdeasCarousel .veneno-ideas-dot.is-active {
+    background: #fff;
+}
+
+@media (max-width: 767px) {
+
+    #venenoIdeasCarousel {
+        min-height: 420px;
+    }
+
+    #venenoIdeasCarousel .veneno-ideas-content {
+        padding: 30px 55px;
+    }
+
+    #venenoIdeasCarousel .veneno-ideas-content h3 {
+        font-size: 27px;
+    }
+
+    #venenoIdeasCarousel .veneno-ideas-content p {
+        font-size: 16px;
+    }
+
+    #venenoIdeasCarousel .veneno-ideas-arrow {
+        width: 42px;
+        height: 42px;
+        font-size: 24px;
+    }
+
+    #venenoIdeasCarousel .veneno-ideas-prev {
+        left: 10px;
+    }
+
+    #venenoIdeasCarousel .veneno-ideas-next {
+        right: 10px;
+    }
+}
