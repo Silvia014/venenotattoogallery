@@ -739,8 +739,38 @@ data-styled.g14[id="sc-jlZhew"]{content:"cMsIBV,"}/*!sc*/</style>
 </section> 
 </div> 
  <div data-layout-section="" data-auto="flex-section" id="1928040085" data-flex-id="4e2a0eb5"> <div class="flex-widgets-container" id="1005002995"></div> 
- <section id="f4d1ef77" class="flex-element section" data-auto="flex-element-section"> <div id="403927dd" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid="" data-hover-effect="none" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJlbnRyYW5jZSIsImFuaW1hdGlvbiI6ImZhZGVJbkNvbWJvIiwiZHVyYXRpb24iOjEuNzI1LCJkZWxheSI6MCwiaW50ZW5zaXR5IjoxLCJkaXIiOiJpbi1wbGFjZSJ9fQ==" data-animation-trigger-desktop="entrance"> <div id="350ce926" class="flex-element group" data-auto="flex-element-group" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJub25lIiwiYW5pbWF0aW9uIjpudWxsfX0="> <div id="group_02j" class="flex-element group" data-auto="flex-element-group"> 
-    <div class="veneno-ideas-carousel" id="venenoIdeasCarousel">
+ <section id="f4d1ef77" class="flex-element section" data-auto="flex-element-section"> <div id="403927dd" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid="" data-hover-effect="none" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJlbnRyYW5jZSIsImFuaW1hdGlvbiI6ImZhZGVJbkNvbWJvIiwiZHVyYXRpb24iOjEuNzI1LCJkZWxheSI6MCwiaW50ZW5zaXR5IjoxLCJkaXIiOiJpbi1wbGFjZSJ9fQ==" data-animation-trigger-desktop="entrance"> <div id="350ce926" class="flex-element group" data-auto="flex-element-group" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJub25lIiwiYW5pbWF0aW9uIjpudWxsfX0="> <div id="group_02j" class="flex-element group" data-auto="flex-element-group"> <div id="widget_ots" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ssrimageslider" data-anim-extended="eyJkZXNrdG9wIjp7InRyaWdnZXIiOiJlbnRyYW5jZSIsImFuaW1hdGlvbiI6ImZhZGVJbkNvbWJvIiwiZHVyYXRpb24iOjEsImRlbGF5IjowLCJpbnRlbnNpdHkiOjEsImRpciI6ImluLXBsYWNlIn19" data-external-id="2688724972"> <div id="2688724972" dmle_extension="ssrimageslider" data-element-type="ssrimageslider" class=""> <span id="ssrWrap-2688724972"> <style data-styled="true" data-styled-version="5.3.11">@media all{.jKjUdt{height:100%;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-repeat:no-repeat;background-size:100%;position:relative;width:100%;}}/*!sc*/
+@media all{.fOgKIx{height:100%;width:100%;box-sizing:border-box;}}/*!sc*/
+@media all{.bcOvLo{width:100%;height:100%;position:relative;overflow:hidden;}}/*!sc*/
+@media (max-width:767px){.bcOvLo{width:100%;}}/*!sc*/
+@media all{.hzjFXA{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:absolute;left:0;top:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;right:-400%;bottom:0;-webkit-transform:translateX(-0%);-ms-transform:translateX(-0%);transform:translateX(-0%);-webkit-transition:-webkit-transform 1s ease-in-out;-webkit-transition:transform 1s ease-in-out;transition:transform 1s ease-in-out;}}/*!sc*/
+@media all{.bElkjm{position:relative;-webkit-flex:1;-ms-flex:1;flex:1;}}/*!sc*/
+@media all{.edjuHe{position:absolute;top:0;bottom:0;left:0;right:0;}}/*!sc*/
+@media (max-width:767px){.edjuHe{left:0;right:0;}}/*!sc*/
+@media all{.clxWl{width:100%;height:100%;position:relative;display:block;overflow:hidden;}}/*!sc*/
+@media all{.dFlTLH{background-color:#eee;overflow:hidden;position:absolute;left:0;bottom:0;top:0;right:0;}}/*!sc*/
+@media all{.cYOjo{position:absolute;top:0;bottom:0;left:0;right:0;background-color:rgba(0,0,0,0.3);}}/*!sc*/
+@media all{.fcgCjo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;visibility:visible;position:absolute;left:0;bottom:35px;padding-block-start:35px;padding-inline:24px;top:60px;right:0;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center;}}/*!sc*/
+@media (max-width:767px){.fcgCjo{top:0;}}/*!sc*/
+@media all{.eHyebB{object-fit:cover;display:block;width:100%;height:100%;}}/*!sc*/
+@media all{.hITJxk{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;visibility:hidden;position:absolute;left:0;bottom:35px;padding-block-start:35px;padding-inline:24px;top:60px;right:0;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center;}}/*!sc*/
+@media (max-width:767px){.hITJxk{top:0;}}/*!sc*/
+@media all{.duZSac{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;pointer-events:none;position:absolute;bottom:0;width:100%;left:0;right:0;top:0;}}/*!sc*/
+@media all{.dgjlXT{line-height:1;}.dgjlXT [class*=" icon-"]::before{cursor:pointer;}}/*!sc*/
+data-styled.g2[id="sc-gEvEer"]{content:"jKjUdt,fOgKIx,bcOvLo,hzjFXA,bElkjm,edjuHe,clxWl,dFlTLH,cYOjo,fcgCjo,eHyebB,hITJxk,duZSac,dgjlXT,"}/*!sc*/
+@media all{.fECgwp{object-fit:cover;display:block;width:100%;height:100%;}}/*!sc*/
+data-styled.g4[id="sc-fqkvVR"]{content:"fECgwp,"}/*!sc*/
+@media all{#dm#dm#dm .fXTzDc.fXTzDc{margin:0;margin-block-end:8px;color:white;font-weight:700;}}/*!sc*/
+@media all{#dm#dm#dm .SdNCs.SdNCs{margin-block-end:24px;color:white;}#dm#dm#dm .SdNCs.SdNCs p{margin-block:0;}}/*!sc*/
+data-styled.g9[id="sc-imWYAI"]{content:"fXTzDc,SdNCs,"}/*!sc*/
+@media all{#dm#dm#dm .elDyml.elDyml{padding:32px;background-color:transparent;border:unset;cursor:pointer;pointer-events:auto;font-size:34px;color:var(--color_2);}}/*!sc*/
+@media (max-width:767px){#dm#dm#dm .elDyml.elDyml{padding:20px;}}/*!sc*/
+data-styled.g14[id="sc-jlZhew"]{content:"elDyml,"}/*!sc*/</style> 
+ <div style="height:100%;overflow:hidden" class="sc-gEvEer d-ext-mediaSlider-slidesContainer"> <div data-auto="actual-slider" class="sc-gEvEer jKjUdt"> <div data-auto="slider-slides-container" class="sc-gEvEer fOgKIx"> <div class="sc-gEvEer bcOvLo"> <div data-auto="slider-filmRole" class="sc-gEvEer hzjFXA"> <div data-auto="slideSlot 0 slideSlotActive" class="sc-gEvEer bElkjm d-ext-mediaSlider-slidesContainer__slide--active"> <div class="sc-gEvEer edjuHe"> <div data-auto="ssr-slide-89385" class="sc-gEvEer clxWl"> <div data-grab="slide-media-container" class="sc-gEvEer dFlTLH">
+    <img data-grab="slide-media" src="/Resources/images/-%20100-1920w.jpg" alt="Sillones de masaje alineados en una sala de spa con poca luz, suelo de madera y decoración de bambú." class="sc-fqkvVR fECgwp"/>
+</div> 
+
+<div class="veneno-ideas-carousel" id="venenoIdeasCarousel">
 
     <div class="veneno-ideas-track">
 
@@ -759,8 +789,8 @@ data-styled.g14[id="sc-jlZhew"]{content:"cMsIBV,"}/*!sc*/</style>
 
         <article class="veneno-ideas-slide">
             <img
-                src="/Resources/images/- 106-1920w.jpg"
-                alt="Cartel neon de 'Veneno Tattoo The Gallery' en un estudio de tatuajes"
+                src="/Resources/images/618690376_18068461130545697_5230574952411407556_n-1920w.jpg"
+                alt="Tatuaje en la pierna"
             >
             <div class="veneno-ideas-overlay"></div>
 
@@ -772,8 +802,8 @@ data-styled.g14[id="sc-jlZhew"]{content:"cMsIBV,"}/*!sc*/</style>
 
         <article class="veneno-ideas-slide">
             <img
-                src="/Resources/images/- 096-1280w.jpg"
-                alt="Cartel de entrada donde se lee 'Veneno Tattoo The Gallery' en un estudio de tatuajes"
+                src="/Resources/images/620726609_17862116436573262_1684231424005142995_n-1920w.jpg"
+                alt="Tatuaje artístico"
             >
             <div class="veneno-ideas-overlay"></div>
 
@@ -785,8 +815,8 @@ data-styled.g14[id="sc-jlZhew"]{content:"cMsIBV,"}/*!sc*/</style>
 
         <article class="veneno-ideas-slide">
             <img
-                src="/Resources/images/- 102-1920w.jpg"
-                alt="Entrada a un estudio de tatuajes con un letrero de neón que dice 'Veneno Tattoo The Gallery'"
+                src="/Resources/images/641240722_17933309682226900_7517947328016524874_n-1920w.jpg"
+                alt="Tatuaje artístico en negro"
             >
             <div class="veneno-ideas-overlay"></div>
 
@@ -798,8 +828,8 @@ data-styled.g14[id="sc-jlZhew"]{content:"cMsIBV,"}/*!sc*/</style>
 
         <article class="veneno-ideas-slide">
             <img
-                src="/Resources/images/- 103 (1)-1920w.jpg"
-                alt="Pared con cuadros en un estudio de tatuajes"
+                src="/Resources/images/anime-1920w.webp"
+                alt="Tatuaje anime"
             >
             <div class="veneno-ideas-overlay"></div>
 
@@ -826,274 +856,41 @@ data-styled.g14[id="sc-jlZhew"]{content:"cMsIBV,"}/*!sc*/</style>
     >
         &#10095;
     </button>
-<style>
-#widget_ots.veneno-custom-slider-wrapper {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    height: auto !important;
-}
 
-#venenoIdeasCarousel {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    height: clamp(480px, 52vw, 720px) !important;
-    min-height: 0 !important;
-}
-
-#venenoIdeasCarousel .veneno-ideas-slide img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    object-position: center center;
-}
-
-#venenoIdeasCarousel .veneno-ideas-content {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 40px 90px;
-}
-
-#venenoIdeasCarousel .veneno-ideas-content h3 {
-    font-size: clamp(26px, 3.2vw, 42px);
-    max-width: 850px;
-}
-
-#venenoIdeasCarousel .veneno-ideas-content p {
-    font-size: clamp(15px, 1.5vw, 20px);
-    max-width: 700px;
-}
-
-
-/* TABLET */
-
-@media (max-width: 1024px) {
-
-    #venenoIdeasCarousel {
-        height: 58vw !important;
-        min-height: 450px !important;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-content {
-        padding: 35px 70px;
-    }
-}
-
-
-/* MOBILE */
-
-@media (max-width: 767px) {
-
-    #venenoIdeasCarousel {
-        height: 125vw !important;
-        min-height: 480px !important;
-        max-height: 620px !important;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-content {
-        padding: 30px 55px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-content h3 {
-        font-size: 27px;
-        line-height: 1.2;
-        margin-bottom: 14px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-content p {
-        font-size: 15px;
-        line-height: 1.45;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-arrow {
-        width: 44px;
-        height: 44px;
-        font-size: 24px;
-        line-height: 44px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-prev {
-        left: 8px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-next {
-        right: 8px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-dots {
-        bottom: 15px;
-    }
-}
-/* ==============================
-   RESPONSIVE VENENO IDEAS CAROUSEL
-   ============================== */
-
-#widget_ots.veneno-custom-slider-wrapper {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    height: auto !important;
-}
-
-#venenoIdeasCarousel {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    height: clamp(480px, 52vw, 720px) !important;
-    min-height: 0 !important;
-}
-
-#venenoIdeasCarousel .veneno-ideas-slide img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    object-position: center center;
-}
-
-#venenoIdeasCarousel .veneno-ideas-content {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 40px 90px;
-}
-
-#venenoIdeasCarousel .veneno-ideas-content h3 {
-    font-size: clamp(26px, 3.2vw, 42px);
-    max-width: 850px;
-}
-
-#venenoIdeasCarousel .veneno-ideas-content p {
-    font-size: clamp(15px, 1.5vw, 20px);
-    max-width: 700px;
-}
-
-
-/* TABLET */
-
-@media (max-width: 1024px) {
-
-    #venenoIdeasCarousel {
-        height: 58vw !important;
-        min-height: 450px !important;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-content {
-        padding: 35px 70px;
-    }
-}
-
-
-/* MOBILE */
-
-@media (max-width: 767px) {
-
-    #venenoIdeasCarousel {
-        height: 125vw !important;
-        min-height: 480px !important;
-        max-height: 620px !important;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-content {
-        padding: 30px 55px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-content h3 {
-        font-size: 27px;
-        line-height: 1.2;
-        margin-bottom: 14px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-content p {
-        font-size: 15px;
-        line-height: 1.45;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-arrow {
-        width: 44px;
-        height: 44px;
-        font-size: 24px;
-        line-height: 44px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-prev {
-        left: 8px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-next {
-        right: 8px;
-    }
-
-    #venenoIdeasCarousel .veneno-ideas-dots {
-        bottom: 15px;
-    }
-}
-</style>
     <div class="veneno-ideas-dots"></div>
-  
+
+</div>
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
 <script>
-(function () {
+document.addEventListener("DOMContentLoaded", function () {
 
-    function initVenenoCarousel() {
+    const carousel = document.getElementById("venenoIdeasCarousel");
 
-        var carousel = document.getElementById("venenoIdeasCarousel");
+    if (!carousel) return;
 
-        if (!carousel) {
-            return;
-        }
+    const slides = carousel.querySelectorAll(".veneno-ideas-slide");
+    const prevButton = carousel.querySelector(".veneno-ideas-prev");
+    const nextButton = carousel.querySelector(".veneno-ideas-next");
+    const dotsContainer = carousel.querySelector(".veneno-ideas-dots");
 
-        var slides = carousel.querySelectorAll(".veneno-ideas-slide");
-        var prevButton = carousel.querySelector(".veneno-ideas-prev");
-        var nextButton = carousel.querySelector(".veneno-ideas-next");
-        var dotsContainer = carousel.querySelector(".veneno-ideas-dots");
+    if (!slides.length) return;
 
-        if (!slides.length || !prevButton || !nextButton || !dotsContainer) {
-            return;
-        }
+    let currentIndex = 0;
+    let autoplay;
 
-        var currentIndex = 0;
-        var autoplayTimer = null;
-
-        function showSlide(index) {
-
-            currentIndex = (index + slides.length) % slides.length;
-
-            slides.forEach(function (slide, i) {
-                slide.classList.toggle("is-active", i === currentIndex);
-            });
-
-            var dots = dotsContainer.querySelectorAll(".veneno-ideas-dot");
-
-            dots.forEach(function (dot, i) {
-                dot.classList.toggle("is-active", i === currentIndex);
-            });
-        }
-
-        function nextSlide() {
-            showSlide(currentIndex + 1);
-        }
-
-        function previousSlide() {
-            showSlide(currentIndex - 1);
-        }
-
-        function restartAutoplay() {
-
-            clearInterval(autoplayTimer);
-
-            autoplayTimer = setInterval(function () {
-                nextSlide();
-            }, 5000);
-        }
-
-        /* Create dots */
-        dotsContainer.innerHTML = "";
+    function createDots() {
 
         slides.forEach(function (_, index) {
 
-            var dot = document.createElement("button");
+            const dot = document.createElement("button");
 
             dot.type = "button";
             dot.className = "veneno-ideas-dot";
+
             dot.setAttribute(
                 "aria-label",
                 "Ir a la diapositiva " + (index + 1)
@@ -1106,46 +903,75 @@ data-styled.g14[id="sc-jlZhew"]{content:"cMsIBV,"}/*!sc*/</style>
 
             dotsContainer.appendChild(dot);
         });
-
-        /* Arrows */
-        prevButton.addEventListener("click", function (event) {
-            event.preventDefault();
-            event.stopPropagation();
-
-            previousSlide();
-            restartAutoplay();
-        });
-
-        nextButton.addEventListener("click", function (event) {
-            event.preventDefault();
-            event.stopPropagation();
-
-            nextSlide();
-            restartAutoplay();
-        });
-
-        /* Start */
-        showSlide(0);
-        restartAutoplay();
     }
 
+    function showSlide(index) {
 
-    if (document.readyState === "loading") {
+        currentIndex = (index + slides.length) % slides.length;
 
-        document.addEventListener(
-            "DOMContentLoaded",
-            initVenenoCarousel
+        slides.forEach(function (slide, i) {
+            slide.classList.toggle(
+                "is-active",
+                i === currentIndex
+            );
+        });
+
+        const dots = dotsContainer.querySelectorAll(
+            ".veneno-ideas-dot"
         );
 
-    } else {
-
-        initVenenoCarousel();
-
+        dots.forEach(function (dot, i) {
+            dot.classList.toggle(
+                "is-active",
+                i === currentIndex
+            );
+        });
     }
 
-})();
+    function startAutoplay() {
+
+        autoplay = setInterval(function () {
+            showSlide(currentIndex + 1);
+        }, 5000);
+    }
+
+    function restartAutoplay() {
+
+        clearInterval(autoplay);
+        startAutoplay();
+    }
+
+    prevButton.addEventListener("click", function () {
+        showSlide(currentIndex - 1);
+        restartAutoplay();
+    });
+
+    nextButton.addEventListener("click", function () {
+        showSlide(currentIndex + 1);
+        restartAutoplay();
+    });
+
+    createDots();
+    showSlide(0);
+    startAutoplay();
+
+});
 </script>
-</div>
+</div> 
+</div> 
+ <div data-auto="pagination-arrows" data-grab="pagination-container" class="sc-gEvEer duZSac"> <button data-grab="pagination-button-arrow" aria-label="back" data-auto="RuntimeSlider-navigation-back" type="button" class="sc-jlZhew elDyml"> <div class="sc-gEvEer dgjlXT"> <div class="sc-gEvEer icon-angle-left" aria-hidden="true"></div> 
+</div> 
+</button> 
+ <button data-grab="pagination-button-arrow" aria-label="next" data-auto="RuntimeSlider-navigation-next" type="button" class="sc-jlZhew elDyml"> <div class="sc-gEvEer dgjlXT"> <div class="sc-gEvEer icon-angle-right" aria-hidden="true"></div> 
+</div> 
+</button> 
+</div> 
+</div> 
+</div> 
+</span> 
+</div> 
+</div> 
+</div> 
 </div> 
 </div> 
 </section> 
