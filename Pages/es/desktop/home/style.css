@@ -395,3 +395,222 @@ img[width][height] {
         right: 10px;
     }
 }
+
+/* Responsive breadcrumbs */
+#widget_ec3 .bc-root {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+@media (max-width: 767px) {
+    #widget_ec3 .bc-root {
+        justify-content: center !important;
+        width: 100% !important;
+    }
+
+    #widget_ec3 .bc-current-item {
+        text-align: center !important;
+    }
+}
+
+/* =========================================
+   VENENO STYLE CAROUSELS
+   ========================================= */
+
+.veneno-style-carousel {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+    background: #000 !important;
+}
+
+.veneno-style-track {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.veneno-style-slide {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 0.6s ease !important;
+}
+
+.veneno-style-slide.is-active {
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 2 !important;
+}
+
+.veneno-style-slide img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.veneno-style-overlay {
+    position: absolute !important;
+    inset: 0 !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.veneno-style-title {
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: 3 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #fff !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.5) !important;
+}
+
+.veneno-style-arrow {
+    position: absolute !important;
+    top: 50% !important;
+    z-index: 5 !important;
+    width: 42px !important;
+    height: 42px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 50% !important;
+    background: rgba(0,0,0,0.45) !important;
+    color: #fff !important;
+    font-size: 24px !important;
+    line-height: 42px !important;
+    cursor: pointer !important;
+    transform: translateY(-50%) !important;
+}
+
+.veneno-style-prev {
+    left: 10px !important;
+}
+
+.veneno-style-next {
+    right: 10px !important;
+}
+
+.veneno-style-arrow:hover {
+    background: rgba(0,0,0,0.7) !important;
+}
+
+@media (max-width: 767px) {
+    .veneno-style-title {
+        font-size: 24px !important;
+    }
+
+    .veneno-style-arrow {
+        width: 38px !important;
+        height: 38px !important;
+        font-size: 22px !important;
+        line-height: 38px !important;
+    }
+
+    .veneno-style-prev {
+        left: 8px !important;
+    }
+
+    .veneno-style-next {
+        right: 8px !important;
+    }
+}
+/* =========================================
+   VENENO - ESTILOS GRID
+   ========================================= */
+
+/* Main container */
+[id="63d24979f4a54e38542a8abc"] {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    column-gap: 1% !important;
+    row-gap: 20px !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    align-items: stretch !important;
+}
+
+/* Heading */
+[id="63d24979f4a54e38542a8abb"] {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 10px !important;
+}
+
+/* Empty old Duda group - don't let it occupy a grid cell */
+[id="778d25d4"] {
+    display: none !important;
+}
+
+/* Six custom carousel containers */
+[id="0851b881"],
+[id="56184a2f"],
+[id="276469fb"],
+[id="697dcd42"],
+[id="d334a213"],
+[id="widget_5mb"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    height: 350px !important;
+    min-height: 0 !important;
+    margin: 0px !important;
+    align-self: stretch !important;
+}
+
+/* Carousel fills each grid cell */
+[id="0851b881"] .veneno-style-carousel,
+[id="56184a2f"] .veneno-style-carousel,
+[id="276469fb"] .veneno-style-carousel,
+[id="697dcd42"] .veneno-style-carousel,
+[id="d334a213"] .veneno-style-carousel,
+[id="widget_5mb"] .veneno-style-carousel {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    [id="63d24979f4a54e38542a8abc"] {
+        grid-template-columns: 1fr !important;
+        row-gap: 20px !important;
+    }
+
+    [id="63d24979f4a54e38542a8abb"] {
+        grid-column: 1 !important;
+    }
+
+    [id="0851b881"],
+    [id="56184a2f"],
+    [id="276469fb"],
+    [id="697dcd42"],
+    [id="d334a213"],
+    [id="widget_5mb"] {
+        height: 360px !important;
+    }
+}
+/* Space between Styles grid and Ideas carousel */
+[id="1641784833"] {
+    margin-bottom: 40px !important;
+}
+
+@media (max-width: 767px) {
+    [id="1641784833"] {
+        margin-bottom: 25px !important;
+    }
+}
+

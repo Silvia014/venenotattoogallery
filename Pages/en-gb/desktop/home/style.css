@@ -2101,3 +2101,21 @@ img[width][height] {
 .videobgframe {
     z-index: 0;
 }
+
+/* Responsive breadcrumbs */
+#widget_ec3 .bc-root {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+@media (max-width: 767px) {
+    #widget_ec3 .bc-root {
+        justify-content: center !important;
+        width: 100% !important;
+    }
+
+    #widget_ec3 .bc-current-item {
+        text-align: center !important;
+    }
+}
