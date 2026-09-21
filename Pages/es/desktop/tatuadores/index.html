@@ -379,7 +379,7 @@ div.copyright {
 }
 </style>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3x0bA3K3nI8nFfQ0c4pJd4kA8l3Qw=" crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
 </head> 
  <body id="dmRoot" data-page-alias="tatuadores" class="dmRoot fix-mobile-scrolling flex-site dmResellerSite " style="padding:0;margin:0;" data-flex-site=""><!-- ========= Site Content ========= --> <div id="dm" class="dmwr"> <div class="dm_wrapper -var5 null "> <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="FlexHeader" data-responsive-name="FlexLayout" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 hamburger-reverse dmPageBody d-page-1716942098 inputs-css-clean dmDHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div id="dmFlexHeaderContainer" class="flex_hfcontainer"> <div id="flex-header" data-variation-id="variation0" class="" lock-element-for-editing="true" role="banner"> <div data-auto="flex-section" id="1505934711" data-flex-id="50e7a36c" data-layout-section="" data-page-element-type="section" data-page-element-source-id="09de676255ed492e9dc4181671351539===header" data-page-element-id="1559073503"> <div class="flex-widgets-container" id="1367895864"></div> 
@@ -1771,140 +1771,82 @@ Todos los derechos reservados</span>
  <script async="" src="https://www.google-analytics.com/analytics.js"></script> 
 </div> 
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 (function () {
-    function initArtistCarousels() {
-        var carousels = document.querySelectorAll('.veneno-artist-carousel');
+    var LAT = 37.3865319;
+    var LNG = -5.965461;
+    var initialized = false;
 
-        carousels.forEach(function (carousel) {
-            if (carousel.dataset.initialized === 'true') return;
-            carousel.dataset.initialized = 'true';
+    function initFooterMap() {
+        if (initialized) return true;
+        if (typeof L === "undefined") return false;
 
-            var slides = carousel.querySelectorAll('.veneno-artist-slide');
-            var thumbs = carousel.querySelectorAll('.veneno-artist-thumb');
-            var prev = carousel.querySelector('.veneno-artist-prev');
-            var next = carousel.querySelector('.veneno-artist-next');
-            var current = 0;
-            var timer = null;
-            var interval = Number(carousel.dataset.autoplay || 4000);
-
-            if (!slides.length) return;
-
-            function showSlide(index) {
-                current = (index + slides.length) % slides.length;
-                slides.forEach(function (slide, i) {
-                    slide.classList.toggle('is-active', i === current);
-                });
-                thumbs.forEach(function (thumb, i) {
-                    thumb.classList.toggle('is-active', i === current);
-                });
-            }
-
-            function restart() {
-                clearInterval(timer);
-                if (slides.length > 1) {
-                    timer = setInterval(function () {
-                        showSlide(current + 1);
-                    }, interval);
-                }
-            }
-
-            thumbs.forEach(function (thumb, index) {
-                thumb.addEventListener('click', function () {
-                    showSlide(index);
-                    restart();
-                });
-            });
-
-            if (prev) {
-                prev.addEventListener('click', function () {
-                    showSlide(current - 1);
-                    restart();
-                });
-            }
-
-            if (next) {
-                next.addEventListener('click', function () {
-                    showSlide(current + 1);
-                    restart();
-                });
-            }
-
-            carousel.addEventListener('mouseenter', function () {
-                clearInterval(timer);
-            });
-
-            carousel.addEventListener('mouseleave', restart);
-
-            showSlide(0);
-            restart();
-        });
-    }
-
- function initMap() {
-
-    if (typeof L === 'undefined') return;
-
-    var containers = [];
-
-    var mainMap = document.getElementById('veneno-tatuadores-map');
-
-    if (mainMap) {
-        containers.push(mainMap);
-    }
-
-    document.querySelectorAll('.veneno-leaflet-map').forEach(function (container) {
-        if (containers.indexOf(container) === -1) {
-            containers.push(container);
-        }
-    });
-
-    containers.forEach(function (container) {
-
-        if (container.dataset.initialized === 'true') return;
-
-        container.dataset.initialized = 'true';
-
-        var map = L.map(container, {
-            scrollWheelZoom: false
-        }).setView(
-            [37.3865319, -5.965460999999],
-            15
+        var container = document.querySelector(
+            '[id="1807922910"] .veneno-leaflet-map'
         );
 
+        if (!container) return false;
+
+        container.style.width = "100%";
+        container.style.height = "160px";
+        container.style.minHeight = "160px";
+        container.style.overflow = "hidden";
+
+        /* Do not initialize the same Leaflet container twice. */
+        if (container._leaflet_id) {
+            initialized = true;
+            return true;
+        }
+
+        var map = L.map(container, {
+            scrollWheelZoom: false,
+            dragging: false,
+            zoomControl: true
+        }).setView([LAT, LNG], 15);
+
         L.tileLayer(
-            'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
             {
                 maxZoom: 19,
-                attribution: '&copy; OpenStreetMap contributors'
+                attribution: "&copy; OpenStreetMap contributors"
             }
         ).addTo(map);
 
-        L.marker(
-            [37.3865319, -5.965460999999]
-        )
-        .addTo(map)
-        .bindPopup(
-            'Veneno Tattoo The Gallery<br>Avenida de la Cruz del Campo 18, Sevilla'
-        );
+        L.marker([LAT, LNG])
+            .addTo(map)
+            .bindPopup(
+                "Veneno Tattoo The Gallery<br>Avenida de la Cruz del Campo 18, Sevilla"
+            );
 
-        setTimeout(function () {
-            map.invalidateSize();
-        }, 300);
+        function refreshMap() {
+            map.invalidateSize(true);
+        }
 
-        setTimeout(function () {
-            map.invalidateSize();
-        }, 1000);
-    });
-}
+        setTimeout(refreshMap, 100);
+        setTimeout(refreshMap, 500);
+        setTimeout(refreshMap, 1200);
 
-    document.addEventListener('DOMContentLoaded', function () {
-        initArtistCarousels();
-        initMap();
+        initialized = true;
+        return true;
+    }
+
+    function boot() {
+        if (!initFooterMap()) {
+            setTimeout(boot, 300);
+        }
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", boot);
+    } else {
+        boot();
+    }
+
+    window.addEventListener("load", function () {
+        setTimeout(boot, 300);
     });
 })();
 </script>
-
 </body> 
 </html> 
