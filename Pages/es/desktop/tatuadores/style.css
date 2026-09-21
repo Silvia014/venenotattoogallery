@@ -2242,3 +2242,224 @@ img[width][height] {
 .veneno-leaflet-map .leaflet-control-container {
     z-index: 0 !important;
 }
+
+/* =========================================
+   TATUADORES - FINAL VISUAL FIXES
+   ========================================= */
+
+/* ---------- CTA BACKGROUND ---------- */
+
+.veneno-cta {
+    position: relative !important;
+    overflow: hidden !important;
+    min-height: 320px !important;
+    padding: 80px 20px !important;
+
+    background-image: url("/Resources/images/6-2880w.jpeg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+
+    isolation: isolate !important;
+}
+
+.veneno-cta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.veneno-cta > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ---------- ARTIST HOVER ---------- */
+
+.veneno-artist-card {
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease !important;
+}
+
+.veneno-artist-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 0 20px rgba(126, 217, 87, 0.45) !important;
+}
+
+.veneno-artist-portrait {
+    position: relative;
+}
+
+.veneno-artist-portrait img {
+    transition: transform 0.5s ease !important;
+}
+
+.veneno-artist-card:hover .veneno-artist-portrait img {
+    transform: scale(1.04) !important;
+}
+
+
+/* ---------- FOOTER LEAFLET SIZE ---------- */
+
+[id="1807922910"] {
+    display: block !important;
+    width: 100% !important;
+    height: 160px !important;
+    min-height: 160px !important;
+    max-height: 160px !important;
+    flex: 0 0 160px !important;
+}
+
+[id="1807922910"] .veneno-leaflet-map {
+    display: block !important;
+    width: 100% !important;
+    height: 160px !important;
+    min-height: 160px !important;
+    max-height: 160px !important;
+}
+
+@media (max-width: 767px) {
+
+    .veneno-cta {
+        min-height: 300px !important;
+        padding: 65px 18px !important;
+        background-attachment: scroll !important;
+    }
+
+    .veneno-artist-card:hover {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+
+    .veneno-artist-card:hover .veneno-artist-portrait img {
+        transform: none !important;
+    }
+
+    [id="1807922910"] {
+        height: 160px !important;
+        min-height: 160px !important;
+        max-height: 160px !important;
+    }
+
+    [id="1807922910"] .veneno-leaflet-map {
+        height: 160px !important;
+        min-height: 160px !important;
+        max-height: 160px !important;
+    }
+}
+/* =========================================
+   TATUADORES CTA - FULL WIDTH
+   ========================================= */
+
+.veneno-cta {
+    position: relative !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+    
+    min-height: 320px !important;
+    padding: 80px 20px !important;
+
+    background-image: url("/Resources/images/6-2880w.jpeg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+
+    overflow: hidden !important;
+    isolation: isolate !important;
+}
+
+.veneno-cta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.veneno-cta > * {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .veneno-cta {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        margin-left: calc(50% - 50vw) !important;
+        min-height: 300px !important;
+        padding: 65px 18px !important;
+        background-attachment: scroll !important;
+    }
+}
+/* =========================================
+   RESERVA CTA - FULL BLEED
+   ========================================= */
+
+.veneno-cta {
+    position: relative !important;
+
+    width: 100vw !important;
+    max-width: 100vw !important;
+
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+
+    box-sizing: border-box !important;
+
+    min-height: 320px !important;
+    padding: 80px 20px !important;
+
+    background-image: url("/Resources/images/6-2880w.jpeg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+
+    overflow: hidden !important;
+    isolation: isolate !important;
+}
+
+.veneno-cta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.veneno-cta > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Remove browser's default page edge */
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@media (max-width: 767px) {
+    .veneno-cta {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        left: 50% !important;
+        margin-left: -50vw !important;
+        margin-right: -50vw !important;
+
+        min-height: 300px !important;
+        padding: 65px 18px !important;
+        background-attachment: scroll !important;
+    }
+}

@@ -1935,26 +1935,119 @@ All rights reserved</span>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".veneno-leaflet-map").forEach(function (container) {
-        if (container.dataset.leafletInitialized) return;
+(function () {
 
-        var map = L.map(container).setView([37.3865319, -5.965461], 15);
+    function getThumbUrl(thumb) {
+        var bg = window.getComputedStyle(thumb).backgroundImage;
 
-        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-            maxZoom: 19,
-            attribution: "&copy; OpenStreetMap contributors"
-        }).addTo(map);
+        if (!bg || bg === "none") {
+            return null;
+        }
 
-        L.marker([37.3865319, -5.965461])
-            .addTo(map)
-            .bindPopup("Veneno Tattoo The Gallery")
-            .openPopup();
+        var match = bg.match(/url\(["']?(.*?)["']?\)/);
 
-        container.dataset.leafletInitialized = "true";
+        return match ? match[1] : null;
+    }
+
+    function loadSlideImage(slide, thumb) {
+
+        var imageUrl = getThumbUrl(thumb);
+
+        if (!imageUrl) {
+            return;
+        }
+
+        var media = slide.querySelector('[data-grab="slide-media"]');
+
+        if (!media) {
+            return;
+        }
+
+        /* Make sure the media area itself displays the image */
+        media.style.backgroundImage = 'url("' + imageUrl + '")';
+        media.style.backgroundSize = "cover";
+        media.style.backgroundPosition = "center";
+        media.style.backgroundRepeat = "no-repeat";
+        media.style.width = "100%";
+        media.style.height = "100%";
+
+        /* Also create an img as a fallback */
+        var img = media.querySelector("img");
+
+        if (!img) {
+            img = document.createElement("img");
+            media.appendChild(img);
+        }
+
+        img.src = imageUrl;
+        img.alt = "";
+        img.style.width = "100%";
+        img.style.height = "100%";
+        img.style.objectFit = "cover";
+        img.style.display = "block";
+    }
+
+    function initArtistSliders() {
+
+        var sliders = document.querySelectorAll(
+            '[data-widget-type="ssrimageslider"]'
+        );
+
+        sliders.forEach(function (widget) {
+
+            var slides = widget.querySelectorAll(
+                '[data-auto^="slideSlot"]'
+            );
+
+            var thumbs = widget.querySelectorAll(
+                '[data-grab*="pagination-button-thumb"]'
+            );
+
+            if (!slides.length || !thumbs.length) {
+                return;
+            }
+
+            /* Load every image */
+            slides.forEach(function (slide, index) {
+                if (thumbs[index]) {
+                    loadSlideImage(slide, thumbs[index]);
+                }
+            });
+
+            /* Re-apply image after Duda handles the click */
+            thumbs.forEach(function (thumb, index) {
+
+                thumb.addEventListener(
+                    "click",
+                    function () {
+
+                        setTimeout(function () {
+                            if (slides[index] && thumbs[index]) {
+                                loadSlideImage(
+                                    slides[index],
+                                    thumbs[index]
+                                );
+                            }
+                        }, 100);
+
+                    },
+                    true
+                );
+
+            });
+
+        });
+    }
+
+    window.addEventListener("load", function () {
+
+        setTimeout(initArtistSliders, 500);
+        setTimeout(initArtistSliders, 1500);
+        setTimeout(initArtistSliders, 3000);
+
     });
-});
-</script>
 
+})();
+</script>
 </body> 
 </html> 
