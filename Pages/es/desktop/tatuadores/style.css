@@ -2209,7 +2209,7 @@ img[width][height] {
   src: local('Arial');
   line-gap-override: 0%;
  }@font-face {
-  font-family: "UnifrakturCook Fallback";
+  font-family: "Cinzel Fallback";
   src: local('Arial');
   ascent-override: 122.3873%;
   descent-override: 33.062%;
@@ -2462,4 +2462,10 @@ body {
         padding: 65px 18px !important;
         background-attachment: scroll !important;
     }
+}
+
+#veneno-page-title {
+    font-family: Cinzel, "Cinzel Fallback", serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
 }
