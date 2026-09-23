@@ -1,23 +1,23 @@
-<!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="ios-preview-native-scroll"> <head> <script>window.exportsite=true</script> 
+<!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="es" class="ios-preview-native-scroll"> <head> <script>window.exportsite=true</script> 
  <meta charset="utf-8"></meta> 
-<!-- Injecting site-wide to the head --><!-- End Injecting site-wide to the head --><!-- Inject secured cdn script --><!-- ========= Meta Tags ========= --><link rel="canonical" href="https://www.venenotattoothegallery.com/en-gb/tatuadores"/> <meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover"></meta> 
+<!-- Injecting site-wide to the head --><!-- End Injecting site-wide to the head --><!-- Inject secured cdn script --><!-- ========= Meta Tags ========= --><link rel="canonical" href="https://www.venenotattoothegallery.com/tatuadores"/> <meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover"></meta> 
  <meta name="apple-mobile-web-app-capable" content="yes"></meta> 
 <!--Add favorites icons--><!-- End favorite icons --><!-- render the required CSS and JS in the head section --><!-- loadCSS function header.jsp--><!-- Google Fonts Include --><!-- loadCSS function fonts.jsp--><!-- RT CSS Include d-css-runtime-flex-new-nav--><!-- End of RT CSS Include --><!-- Support `img` size attributes --><!-- Support showing sticky element on page only --><!-- This is populated in Ajax navigation --><!-- Site CSS --><!-- Flex Sections CSS --><!-- ========= JS Section ========= --><!-- Injecting site-wide before scripts --> <script src="https://app.termly.io/resource-blocker/03fe58db-6315-401b-8ce5-5565b6f4c973?autoBlock=on" data-swh-uuid="b2576de1d3124bd98df6a13616501318">
 </script> 
-<!-- End Injecting site-wide to the head --><!-- HEAD RT JS Include --><!-- End of HEAD RT JS Include --><!-- End render the required css and JS in the head section --><link rel="alternate" hreflang="en-gb" href="https://www.venenotattoothegallery.com/en-gb/tatuadores"/><link rel="alternate" hreflang="en" href="https://www.venenotattoothegallery.com/tatuadores"/><link rel="alternate" hreflang="x-default" href="https://www.venenotattoothegallery.com/tatuadores"/><link type="application/rss+xml" rel="alternate" href="https://www.venenotattoothegallery.com/feed/rss2"/><link type="application/atom+xml" rel="alternate" href="https://www.venenotattoothegallery.com/feed/atom"/> <meta name="robots" content="noindex"></meta> 
+<!-- End Injecting site-wide to the head --><!-- HEAD RT JS Include --><!-- End of HEAD RT JS Include --><!-- End render the required css and JS in the head section --><link rel="alternate" hreflang="en-gb" href="https://www.venenotattoothegallery.com/en-gb/tatuadores"/><link rel="alternate" hreflang="es" href="https://www.venenotattoothegallery.com/tatuadores"/><link rel="alternate" hreflang="x-default" href="https://www.venenotattoothegallery.com/tatuadores"/><link type="application/rss+xml" rel="alternate" href="https://www.venenotattoothegallery.com/feed/rss2"/><link type="application/atom+xml" rel="alternate" href="https://www.venenotattoothegallery.com/feed/atom"/> <meta name="robots" content="noindex"></meta> 
  <meta property="og:type" content="website"></meta> 
- <meta property="og:url" content="https://www.venenotattoothegallery.com/en-gb/tatuadores"></meta> 
- <title>Tattoo Artists | Veneno Tattoo The Gallery</title>
- <meta name="description" content="Meet our specialized tattoo artists and book your appointment. Contact us via Instagram or WhatsApp for a personalized quote."></meta> 
+ <meta property="og:url" content="https://www.venenotattoothegallery.com/tatuadores"></meta> 
+ <title>Tatuadores | Veneno Tattoo The Gallery</title> 
+ <meta name="description" content="Conoce a nuestros tatuadores especializados y reserva tu cita. Comunícate por Instagram o WhatsApp para un presupuesto personalizado."></meta> 
  <meta name="google-site-verification" content="Y1lvboES497uNo-cQUl9P3JQ_O_nWRvCWV765iymOQ8"></meta> 
  <meta name="twitter:card" content="summary"></meta> 
- <meta name="twitter:title" content="Tattoo Artists | Veneno Tattoo The Gallery"></meta> 
- <meta name="twitter:description" content="Meet our specialized tattoo artists and book your appointment. Contact us via Instagram or WhatsApp for a personalized quote."></meta> 
+ <meta name="twitter:title" content="Tatuadores | Veneno Tattoo The Gallery"></meta> 
+ <meta name="twitter:description" content="Conoce a nuestros tatuadores especializados y reserva tu cita. Comunícate por Instagram o WhatsApp para un presupuesto personalizado."></meta> 
  <meta name="twitter:image" content="/Resources/images/img-rrss-1920w.webp"></meta> 
- <meta property="og:description" content="Meet our specialized tattoo artists and book your appointment. Contact us via Instagram or WhatsApp for a personalized quote."></meta> 
- <meta property="og:title" content="Tattoo Artists | Veneno Tattoo The Gallery"></meta> 
+ <meta property="og:description" content="Conoce a nuestros tatuadores especializados y reserva tu cita. Comunícate por Instagram o WhatsApp para un presupuesto personalizado."></meta> 
+ <meta property="og:title" content="Tatuadores | Veneno Tattoo The Gallery"></meta> 
  <meta property="og:image" content="/Resources/images/img-rrss-1920w.webp"></meta> 
-<!-- SYS- RVVfUFJPRFVDVElPTg== --><link href="/Style/desktop.css" rel="stylesheet" type="text/css"/><link href="/Pages/en-gb/desktop/tatuadores/style.css" rel="stylesheet" type="text/css"/>
+<!-- SYS- RVVfUFJPRFVDVElPTg== --><link href="/Style/desktop.css" rel="stylesheet" type="text/css"/><link href="/Pages/es/desktop/tatuadores/style.css" rel="stylesheet" type="text/css"/>
 <style>
 /* Smaller header logo - ALL PAGES */
 #dmFlexHeaderContainer img[data-dm-image-path*="logo-veneno"] {
@@ -381,34 +381,25 @@ div.copyright {
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
-
-<style id="tatuadores-mobile-language-fix">
-@media (max-width: 767px) {
-    #946d7a15 {
-        display: none !important;
-    }
-}
-</style>
-
 </head> 
  <body id="dmRoot" data-page-alias="tatuadores" class="dmRoot fix-mobile-scrolling flex-site dmResellerSite " style="padding:0;margin:0;" data-flex-site=""><!-- ========= Site Content ========= --> <div id="dm" class="dmwr"> <div class="dm_wrapper -var5 null "> <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="FlexHeader" data-responsive-name="FlexLayout" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 hamburger-reverse dmPageBody d-page-1716942098 inputs-css-clean dmDHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div id="dmFlexHeaderContainer" class="flex_hfcontainer"> <div id="flex-header" data-variation-id="variation0" class="" lock-element-for-editing="true" role="banner"> <div data-auto="flex-section" id="1505934711" data-flex-id="50e7a36c" data-layout-section="" data-page-element-type="section" data-page-element-source-id="09de676255ed492e9dc4181671351539===header" data-page-element-id="1559073503"> <div class="flex-widgets-container" id="1367895864"></div> 
- <section id="6d82379c" class="flex-element section" data-auto="flex-element-section"> <div id="577ebd20" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="864faae6" class="flex-element group" data-auto="flex-element-group"> <div id="f42d9639" class="flex-element group" data-auto="flex-element-group" data-hidden-on-mobile=""> <div id="a7e05cbc" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1860794319"> <div class="imageWidget align-center u_1860794319" data-element-type="image" data-widget-type="image" id="1860794319" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/en-gb/home/" id="1609048061" raw_url="/en-gb/home/" data-target-page-alias="home"><img src="/Resources/images/logo-veneno-tattoo-the-gallery-1920w.jpg" alt="Logotipo de calavera verde con tibias cruzadas y la palabra “veneno” sobre fondo negro." id="1852092388" class="" data-dm-image-path="/Resources/images/logo-veneno-tattoo-the-gallery.jpg" width="32" height="9" data-diy-image="" onerror="handleImageLoadError(this)"/></a> 
+ <section id="6d82379c" class="flex-element section" data-auto="flex-element-section"> <div id="577ebd20" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="864faae6" class="flex-element group" data-auto="flex-element-group"> <div id="f42d9639" class="flex-element group" data-auto="flex-element-group" data-hidden-on-mobile=""> <div id="a7e05cbc" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1860794319"> <div class="imageWidget align-center u_1860794319" data-element-type="image" data-widget-type="image" id="1860794319" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/" id="1609048061" raw_url="/" data-target-page-alias="home"><img src="/Resources/images/logo-veneno-tattoo-the-gallery-1920w.jpg" alt="Logotipo de calavera verde con tibias cruzadas y la palabra “veneno” sobre fondo negro." id="1852092388" class="" data-dm-image-path="/Resources/images/logo-veneno-tattoo-the-gallery.jpg" width="32" height="9" data-diy-image="" onerror="handleImageLoadError(this)"/></a> 
 </div> 
 </div> 
 </div> 
- <div id="d8bd8b2b" class="flex-element group" data-auto="flex-element-group" data-hidden-on-tablet="" data-hidden-on-mobile=""> <div id="4b858bf5" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-hidden-on-tablet="" data-hidden-on-mobile="" data-external-id="1248877001"> <nav class="effect-bottom2 u_1248877001 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1248877001" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" data-divider="" is-build-your-own="false" data-build-your-own="W10="> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/home/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641993  " target="" data-target-page-alias="home" raw_url="/en-gb/home/"> <span class="nav-item-text " data-link-text="Home" data-auto="page-text-style">Home <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+ <div id="d8bd8b2b" class="flex-element group" data-auto="flex-element-group" data-hidden-on-tablet="" data-hidden-on-mobile=""> <div id="4b858bf5" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-hidden-on-tablet="" data-hidden-on-mobile="" data-external-id="1248877001"> <nav class="effect-bottom2 u_1248877001 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1248877001" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" data-divider="" is-build-your-own="false" data-build-your-own="W10="> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641993  " target="" data-target-page-alias="home" raw_url="/"> <span class="nav-item-text " data-link-text="Inicio" data-auto="page-text-style">Inicio <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/tatuadores/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_010101602714  " target="" data-target-page-alias="tatuadores" aria-current="page" data-auto="selected-page" raw_url="/en-gb/tatuadores/"> <span class="nav-item-text " data-link-text="Tatuadores" data-auto="page-text-style">Tattoo Artists <span class="icon icon-angle-down"></span>
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/tatuadores/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_010101602714  " target="" data-target-page-alias="tatuadores" aria-current="page" data-auto="selected-page" raw_url="/tatuadores/"> <span class="nav-item-text " data-link-text="Tatuadores" data-auto="page-text-style">Tatuadores <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/el-estudio/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010140523  " target="" data-target-page-alias="el-estudio" raw_url="/en-gb/el-estudio/"> <span class="nav-item-text " data-link-text="El estudio" data-auto="page-text-style">The Studio <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/el-estudio/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010140523  " target="" data-target-page-alias="el-estudio" raw_url="/el-estudio/"> <span class="nav-item-text " data-link-text="El estudio" data-auto="page-text-style">El estudio <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contacto/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010132768  " target="" data-target-page-alias="contacto" raw_url="/contacto/"> <span class="nav-item-text " data-link-text="Contacto" data-auto="page-text-style">Contacto <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</a> 
- <a href="/en-gb/blog/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101617830  " target="" data-target-page-alias="blog" raw_url="/en-gb/blog/"> <span class="nav-item-text " data-link-text="Blog" data-auto="page-text-style">Blog <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/blog/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101617830  " target="" data-target-page-alias="blog" raw_url="/blog/"> <span class="nav-item-text " data-link-text="Blog" data-auto="page-text-style">Blog <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
@@ -418,6 +409,7 @@ div.copyright {
 </div> 
  <div id="d4fa7b3a" class="flex-element group" data-auto="flex-element-group"> <div id="26ff2920" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1835579805"> 
 </span> 
+
 </a> 
 </div> 
  <div id="e7d454a8" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="graphic" data-hidden-on-desktop="" data-hidden-on-tablet="" data-hidden-on-mobile="" data-external-id="1061673169"> <div class="graphicWidget u_1061673169" data-element-type="graphic" data-widget-type="graphic" id="1061673169"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1408 1792" id="1185658907" class="svg u_1185658907" data-icon-name="fa-phone"> <title id="1003379782">Imagen blanca en blanco con un tenue degradado gris en el lado izquierdo.</title> 
@@ -431,15 +423,14 @@ div.copyright {
 </button> 
 </div> 
 </div> 
-<div class="flex-element group" data-auto="flex-element-group" data-hidden-on-mobile="" id="c7d57201"> <div class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-external-id="1634269970" data-widget-type="multilingual" id="946d7a15"> <div class="multilingualWidget dropdown flag-only" data-display="dropdown" data-element-type="multilingual" dmle_extension="multilingual" icon="false" id="1634269970" surround="false"> <div class="desktopMultilingual"> <div class="language current-language"> <a data-disable-ajax-navigation="true" data-target-page-alias="en-gb/tatuadores" href="/en-gb/tatuadores/" raw_url="/en-gb/tatuadores/"><img alt="English" data-code="" onerror="handleImageLoadError(this)" src="/Resources/images/gb.png"/> <span class="name">English</span>
-<span class="short-label">en</span>
-<div class="dm-icon dm-icon-chevron-down"></div>
-</a>
-</div>
-<div class="language other-languages"> <a data-code="" data-disable-ajax-navigation="true" data-target-page-alias="tatuadores" href="/tatuadores/" raw_url="/tatuadores/"><img alt="Español" onerror="handleImageLoadError(this)" src="/Resources/images/es.png"/> <span class="name">Español</span>
-<span class="short-label">es</span>
-</a>
-</div>
+ <div id="0cbd4de3" class="flex-element group" data-auto="flex-element-group"> <div id="388595ee" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="multilingual" data-external-id="1773145234"> <div id="1773145234" class="multilingualWidget dropdown flag-only" dmle_extension="multilingual" data-element-type="multilingual" data-display="dropdown" icon="false" surround="false"> <div class="desktopMultilingual"> <div class="language current-language"> <a href="/tatuadores/" data-disable-ajax-navigation="true" raw_url="/tatuadores/" data-target-page-alias="tatuadores"><img src="/Resources/images/es.png" alt="Español" data-code="" onerror="handleImageLoadError(this)"/> <span class="name">Espa&ntilde;ol</span> 
+ <span class="short-label">es</span> 
+ <div class="dm-icon dm-icon-chevron-down"></div> 
+</a> 
+</div> 
+ <div class="language other-languages"> <a href="/en-gb/tatuadores/" data-code="" data-disable-ajax-navigation="true" raw_url="/en-gb/tatuadores/" data-target-page-alias="en-gb/tatuadores"><img src="/Resources/images/gb.png" alt="English" onerror="handleImageLoadError(this)"/> <span class="name">English</span>
+ <span class="short-label">en</span> 
+</a> 
 </div> 
 </div> 
 </div> 
@@ -450,23 +441,23 @@ div.copyright {
 </section> 
 </div> 
  <div data-auto="flex-section" id="1755514766" data-flex-id="50840d93" data-layout-section="" data-page-element-type="section" data-page-element-source-id="09de676255ed492e9dc4181671351539===header" data-page-element-id="1559073503" class="" data-hidden-on-desktop="true" data-hidden-on-tablet="true"> <div class="flex-widgets-container" id="1605034448"></div> 
- <section id="dd508a79" class="flex-element section" data-auto="flex-element-section"> <div id="38494c15" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="323efc41" class="flex-element group" data-auto="flex-element-group" data-hidden-on-desktop="" data-hidden-on-tablet=""> <div id="fdbb56ac" class="flex-element group" data-auto="flex-element-group"> <div id="1d26cee7" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1524789216"> <div class="imageWidget align-center u_1524789216" data-element-type="image" data-widget-type="image" id="1524789216" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/en-gb/home/" id="1801859327" raw_url="/en-gb/home/" data-target-page-alias="home"><img src="/Resources/images/logo-veneno-tattoo-the-gallery-1920w.jpg" alt="Logotipo de calavera verde con tibias cruzadas y la palabra “veneno” sobre fondo negro." id="1793032916" class="" data-dm-image-path="/Resources/images/logo-veneno-tattoo-the-gallery.jpg" width="32" height="9" data-diy-image="" onerror="handleImageLoadError(this)"/></a> 
+ <section id="dd508a79" class="flex-element section" data-auto="flex-element-section"> <div id="38494c15" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="323efc41" class="flex-element group" data-auto="flex-element-group" data-hidden-on-desktop="" data-hidden-on-tablet=""> <div id="fdbb56ac" class="flex-element group" data-auto="flex-element-group"> <div id="1d26cee7" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-keep-proportion="true" data-external-id="1524789216"> <div class="imageWidget align-center u_1524789216" data-element-type="image" data-widget-type="image" id="1524789216" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/" id="1801859327" raw_url="/" data-target-page-alias="home"><img src="/Resources/images/logo-veneno-tattoo-the-gallery-1920w.jpg" alt="Logotipo de calavera verde con tibias cruzadas y la palabra “veneno” sobre fondo negro." id="1793032916" class="" data-dm-image-path="/Resources/images/logo-veneno-tattoo-the-gallery.jpg" width="32" height="9" data-diy-image="" onerror="handleImageLoadError(this)"/></a> 
 </div> 
 </div> 
 </div> 
- <div id="c6d568c3" class="flex-element group" data-auto="flex-element-group" data-hidden-on-tablet="" data-hidden-on-mobile=""> <div id="ae59467b" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-hidden-on-tablet="" data-hidden-on-mobile="" data-external-id="1278733253"> <nav class="effect-bottom2 u_1278733253 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1278733253" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" data-divider="" is-build-your-own="false" data-build-your-own="W10="> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/home/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641993  " target="" data-target-page-alias="home" raw_url="/en-gb/home/"> <span class="nav-item-text " data-link-text="Home" data-auto="page-text-style">Home <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+ <div id="c6d568c3" class="flex-element group" data-auto="flex-element-group" data-hidden-on-tablet="" data-hidden-on-mobile=""> <div id="ae59467b" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-hidden-on-tablet="" data-hidden-on-mobile="" data-external-id="1278733253"> <nav class="effect-bottom2 u_1278733253 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1278733253" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" data-divider="" is-build-your-own="false" data-build-your-own="W10="> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641993  " target="" data-target-page-alias="home" raw_url="/"> <span class="nav-item-text " data-link-text="Inicio" data-auto="page-text-style">Inicio <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/tatuadores/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_010101602714  " target="" data-target-page-alias="tatuadores" aria-current="page" data-auto="selected-page" raw_url="/en-gb/tatuadores/"> <span class="nav-item-text " data-link-text="Tatuadores" data-auto="page-text-style">Tattoo Artists <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/tatuadores/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_010101602714  " target="" data-target-page-alias="tatuadores" aria-current="page" data-auto="selected-page" raw_url="/tatuadores/"> <span class="nav-item-text " data-link-text="Tatuadores" data-auto="page-text-style">Tatuadores <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/el-estudio/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010140523  " target="" data-target-page-alias="el-estudio" raw_url="/en-gb/el-estudio/"> <span class="nav-item-text " data-link-text="El estudio" data-auto="page-text-style">The studio <span class="icon icon-angle-down"></span> 
-</a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/contacto/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010132768  " target="" data-target-page-alias="contacto" raw_url="/en-gb/contacto/"> <span class="nav-item-text " data-link-text="Contacto" data-auto="page-text-style">Contact <span class="icon icon-angle-down"></span>
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/el-estudio/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010140523  " target="" data-target-page-alias="el-estudio" raw_url="/el-estudio/"> <span class="nav-item-text " data-link-text="El estudio" data-auto="page-text-style">El estudio <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/blog/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101617830  " target="" data-target-page-alias="blog" raw_url="/en-gb/blog/"> <span class="nav-item-text " data-link-text="Blog" data-auto="page-text-style">Blog <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contacto/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010132768  " target="" data-target-page-alias="contacto" raw_url="/contacto/"> <span class="nav-item-text " data-link-text="Contacto" data-auto="page-text-style">Contacto <span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/blog/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101617830  " target="" data-target-page-alias="blog" raw_url="/blog/"> <span class="nav-item-text " data-link-text="Blog" data-auto="page-text-style">Blog <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
@@ -474,9 +465,7 @@ div.copyright {
 </nav> 
 </div> 
 </div> 
- <div id="b1751ea3" class="flex-element group" data-auto="flex-element-group" data-hidden-on-mobile=""> <div id="fc62fa79" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1413018227"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient u_1413018227" file="false" href="tel:+34640134968" data-element-type="dButtonLinkId" id="1413018227"> <span class="iconBg" aria-hidden="true" id="1374392231"> <span class="icon hasFontIcon icon-star" id="1147656620"></span> 
-</span> 
- <span class="text" id="1721612349">Pide cita</span> 
+ <div id="b1751ea3" class="flex-element group" data-auto="flex-element-group" data-hidden-on-mobile=""> <div id="fc62fa79" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="link" data-external-id="1413018227">
 </a> 
 </div> 
  <div id="4266be19" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="graphic" data-hidden-on-desktop="" data-hidden-on-tablet="" data-external-id="1185553048"> <div class="graphicWidget u_1185553048" data-element-type="graphic" data-widget-type="graphic" id="1185553048"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1408 1792" id="1655095329" class="svg u_1655095329" data-icon-name="fa-phone"> <title id="1003379782">Imagen blanca en blanco con un tenue degradado gris en el lado izquierdo.</title> 
@@ -495,7 +484,7 @@ div.copyright {
  <div class="dm-icon dm-icon-chevron-down"></div> 
 </a> 
 </div> 
- <div class="language other-languages"> <a href="/en-gb/tatuadores/" data-code="" data-disable-ajax-navigation="true" raw_url="/en-gb/tatuadores/" data-target-page-alias="en-gb/tatuadores"><img src="/Resources/images/gb.png" alt="English" onerror="handleImageLoadError(this)"/> <span class="name">English</span> 
+ <div class="language other-languages"> <a href="/en-gb/" data-code="" data-disable-ajax-navigation="true" raw_url="/en-gb/" data-target-page-alias="en-gb"><img src="/Resources/images/gb.png" alt="English" onerror="handleImageLoadError(this)"/> <span class="name">English</span> 
  <span class="short-label">en</span> 
 </a> 
 </div> 
@@ -521,19 +510,19 @@ div.copyright {
 </section> 
 </div> 
  <div data-auto="flex-section" id="1099442592" data-flex-id="63a049320d35b55b4ef2a372" data-layout-section=""> <div class="flex-widgets-container" id="1247649854"></div> 
- <section id="63a049320d35b55b4ef2a373" class="flex-element section" data-auto="flex-element-section"> <div id="63a049320d35b55b4ef2a376" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="63a049320d35b55b4ef2a377" class="flex-element group" data-auto="flex-element-group"> <div id="63a049320d35b55b4ef2a374" class="flex-element group" data-auto="flex-element-group"> <div id="63a049ca0d35b55b4ef2a5c3" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1998592992"> <nav class="u_1998592992 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1998592992" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" is-build-your-own="false" data-build-your-own="W10="> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/home/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641993  " target="" data-target-page-alias="home" raw_url="/en-gb/home/"> <span class="nav-item-text " data-link-text="Home" data-auto="page-text-style">Home <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+ <section id="63a049320d35b55b4ef2a373" class="flex-element section" data-auto="flex-element-section"> <div id="63a049320d35b55b4ef2a376" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="63a049320d35b55b4ef2a377" class="flex-element group" data-auto="flex-element-group"> <div id="63a049320d35b55b4ef2a374" class="flex-element group" data-auto="flex-element-group"> <div id="63a049ca0d35b55b4ef2a5c3" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1998592992"> <nav class="u_1998592992 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1998592992" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" is-build-your-own="false" data-build-your-own="W10="> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641993  " target="" data-target-page-alias="home" raw_url="/"> <span class="nav-item-text " data-link-text="Inicio" data-auto="page-text-style">Inicio <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/tatuadores" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_010101602714  " target="" data-target-page-alias="tatuadores" aria-current="page" data-auto="selected-page" raw_url="/en-gb/tatuadores/"> <span class="nav-item-text " data-link-text="Tatuadores" data-auto="page-text-style">Tattoo Artists <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/tatuadores/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_010101602714  " target="" data-target-page-alias="tatuadores" aria-current="page" data-auto="selected-page" raw_url="/tatuadores/"> <span class="nav-item-text " data-link-text="Tatuadores" data-auto="page-text-style">Tatuadores <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/el-estudio/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010140523  " target="" data-target-page-alias="el-estudio" raw_url="/en-gb/el-estudio/"> <span class="nav-item-text " data-link-text="El estudio" data-auto="page-text-style">The Studio <span class="icon icon-angle-down"></span>
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/el-estudio/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010140523  " target="" data-target-page-alias="el-estudio" raw_url="/el-estudio/"> <span class="nav-item-text " data-link-text="El estudio" data-auto="page-text-style">El estudio <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/contacto/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010132768  " target="" data-target-page-alias="contacto" raw_url="/en-gb/contacto/"> <span class="nav-item-text " data-link-text="Contacto" data-auto="page-text-style">Contact <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contacto/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010132768  " target="" data-target-page-alias="contacto" raw_url="/contacto/"> <span class="nav-item-text " data-link-text="Contacto" data-auto="page-text-style">Contacto <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/blog/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101617830  " target="" data-target-page-alias="blog" raw_url="/en-gb/blog/"> <span class="nav-item-text " data-link-text="Blog" data-auto="page-text-style">Blog <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/blog/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101617830  " target="" data-target-page-alias="blog" raw_url="/blog/"> <span class="nav-item-text " data-link-text="Blog" data-auto="page-text-style">Blog <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
@@ -563,59 +552,59 @@ div.copyright {
 
         <section class="veneno-intro" aria-labelledby="veneno-page-title">
             <nav class="veneno-breadcrumb" aria-label="Breadcrumbs">
-                <a href="/en-gb/home/">Home</a>
+                <a href="/">Inicio</a>
                 <span aria-hidden="true">›</span>
-                <span>Tattoo Artists</span>
+                <span>Tatuadores</span>
             </nav>
 
-            <h1 id="veneno-page-title">Our Tattoo Artists</h1>
-            <p>A team of tattoo artists specialized in different styles, united by passion and commitment to quality.</p>
+            <h1 id="veneno-page-title">Nuestros Tatuadores</h1>
+            <p>Un equipo de tatuadores especializados en distintos estilos, unidos por la pasión y el compromiso con la calidad.</p>
         </section>
 
         <section class="veneno-artists" aria-labelledby="veneno-artists-title">
-            <h2 id="veneno-artists-title" class="sr-only">Tattoo Artists</h2>
+            <h2 id="veneno-artists-title" class="sr-only">Tatuadores</h2>
             <div class="veneno-artists-grid">
                 <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1%20%281%29%20%281%29%20%281%29-1920w.jpeg" alt="Photograph of Valcel at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1%20%281%29%20%281%29%20%281%29-1920w.jpeg" alt="Fotografía de Valcel en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">VALCEL</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/3%20%284%29-a0a3ff3a-1920w.jpeg" alt="Tattoo by Valcel, image 1.">
+                <img src="/Resources/images/3%20%284%29-a0a3ff3a-1920w.jpeg" alt="Tatuaje realizado por Valcel, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Valcel" target="_blank" rel="noopener">Appointment with Valcel</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Valcel" target="_blank" rel="noopener">Cita con Valcel</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/4%20%284%29-a6277257-1920w.jpeg" alt="Tattoo by Valcel, image 2.">
+                <img src="/Resources/images/4%20%284%29-a6277257-1920w.jpeg" alt="Tatuaje realizado por Valcel, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Valcel" target="_blank" rel="noopener">Appointment with Valcel</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Valcel" target="_blank" rel="noopener">Cita con Valcel</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/2%20%283%29-a8822b5c-1920w.jpeg" alt="Tattoo by Valcel, image 3.">
+                <img src="/Resources/images/2%20%283%29-a8822b5c-1920w.jpeg" alt="Tatuaje realizado por Valcel, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Valcel" target="_blank" rel="noopener">Appointment with Valcel</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Valcel" target="_blank" rel="noopener">Cita con Valcel</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/5%20%283%29-a49602f3-1920w.jpeg" alt="Tattoo by Valcel, image 4.">
+                <img src="/Resources/images/5%20%283%29-a49602f3-1920w.jpeg" alt="Tatuaje realizado por Valcel, imagen 4.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Valcel" target="_blank" rel="noopener">Appointment with Valcel</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Valcel" target="_blank" rel="noopener">Cita con Valcel</a>
             </article>
                 </div>
-                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Previous">&#10094;</button>
-                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Next">&#10095;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/3%20%284%29-a0a3ff3a-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/4%20%284%29-a6277257-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/2%20%283%29-a8822b5c-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 4">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 4">
                     <img src="/Resources/images/5%20%283%29-a49602f3-1920w.jpeg" alt="">
                 </button>
                 </div>
@@ -623,45 +612,45 @@ div.copyright {
         </article>
 <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1%20%282%29%20%282%29-1920w.jpeg" alt="Photograph of Cadena at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1%20%282%29%20%282%29-1920w.jpeg" alt="Fotografía de Cadena en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">CADENA</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/2%20%285%29-130437b9-1920w.jpeg" alt="Tattoo by Cadena, image 1.">
+                <img src="/Resources/images/2%20%285%29-130437b9-1920w.jpeg" alt="Tatuaje realizado por Cadena, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Cadena" target="_blank" rel="noopener">Appointment with Cadena</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Cadena" target="_blank" rel="noopener">Cita con Cadena</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/4%20%285%29-627e51de-1920w.jpeg" alt="Tattoo by Cadena, image 2.">
+                <img src="/Resources/images/4%20%285%29-627e51de-1920w.jpeg" alt="Tatuaje realizado por Cadena, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Cadena" target="_blank" rel="noopener">Appointment with Cadena</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Cadena" target="_blank" rel="noopener">Cita con Cadena</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/5%20%289%29-1920w.jpeg" alt="Tattoo by Cadena, image 3.">
+                <img src="/Resources/images/5%20%289%29-1920w.jpeg" alt="Tatuaje realizado por Cadena, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Cadena" target="_blank" rel="noopener">Appointment with Cadena</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Cadena" target="_blank" rel="noopener">Cita con Cadena</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/3%20%285%29-663192b7-1920w.jpeg" alt="Tattoo by Cadena, image 4.">
+                <img src="/Resources/images/3%20%285%29-663192b7-1920w.jpeg" alt="Tatuaje realizado por Cadena, imagen 4.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Cadena" target="_blank" rel="noopener">Appointment with Cadena</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Cadena" target="_blank" rel="noopener">Cita con Cadena</a>
             </article>
                 </div>
-                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Previous">&#10094;</button>
-                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Next">&#10095;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/2%20%285%29-130437b9-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/4%20%285%29-627e51de-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/5%20%289%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 4">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 4">
                     <img src="/Resources/images/3%20%285%29-663192b7-1920w.jpeg" alt="">
                 </button>
                 </div>
@@ -669,37 +658,37 @@ div.copyright {
         </article>
 <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1%20%2813%29-1920w.jpeg" alt="Photograph of Lucia at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1%20%2813%29-1920w.jpeg" alt="Fotografía de Lucia en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">LUCIA</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/4%20%289%29-1920w.jpeg" alt="Tattoo by Lucia, image 1.">
+                <img src="/Resources/images/4%20%289%29-1920w.jpeg" alt="Tatuaje realizado por Lucia, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Lucia" target="_blank" rel="noopener">Appointment with Lucia</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Lucia" target="_blank" rel="noopener">Cita con Lucia</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/2%20%285%29-1920w.jpeg" alt="Tattoo by Lucia, image 2.">
+                <img src="/Resources/images/2%20%285%29-1920w.jpeg" alt="Tatuaje realizado por Lucia, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Lucia" target="_blank" rel="noopener">Appointment with Lucia</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Lucia" target="_blank" rel="noopener">Cita con Lucia</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/3%20%289%29-1920w.jpeg" alt="Tattoo by Lucia, image 3.">
+                <img src="/Resources/images/3%20%289%29-1920w.jpeg" alt="Tatuaje realizado por Lucia, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Lucia" target="_blank" rel="noopener">Appointment with Lucia</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Lucia" target="_blank" rel="noopener">Cita con Lucia</a>
             </article>
                 </div>
                 <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
                 <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/4%20%289%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/2%20%285%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/3%20%289%29-1920w.jpeg" alt="">
                 </button>
                 </div>
@@ -713,31 +702,31 @@ div.copyright {
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/2f224bef-77e7-437c-b9fe-01c035b386c1-1920w.jpg" alt="Tattoo by Paco, image 1.">
+                <img src="/Resources/images/2f224bef-77e7-437c-b9fe-01c035b386c1-1920w.jpg" alt="Tatuaje realizado por Paco, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Paco%20Ruiz" target="_blank" rel="noopener">Appointment with Paco</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Paco%20Ruiz" target="_blank" rel="noopener">Cita con Paco</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/82578eb7-1b74-4176-bab5-6cc61f60e897-1920w.jpg" alt="Tattoo by Paco, image 2.">
+                <img src="/Resources/images/82578eb7-1b74-4176-bab5-6cc61f60e897-1920w.jpg" alt="Tatuaje realizado por Paco, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Paco%20Ruiz" target="_blank" rel="noopener">Appointment with Paco</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Paco%20Ruiz" target="_blank" rel="noopener">Cita con Paco</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/71e1d8ef-8bdd-45e3-9a51-4dfb6f7b6f8a-1920w.jpg" alt="Tattoo by Paco, image 3.">
+                <img src="/Resources/images/71e1d8ef-8bdd-45e3-9a51-4dfb6f7b6f8a-1920w.jpg" alt="Tatuaje realizado por Paco, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Paco%20Ruiz" target="_blank" rel="noopener">Appointment with Paco</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Paco%20Ruiz" target="_blank" rel="noopener">Cita con Paco</a>
             </article>
                 </div>
                 <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
                 <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/2f224bef-77e7-437c-b9fe-01c035b386c1-1920w.jpg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/82578eb7-1b74-4176-bab5-6cc61f60e897-1920w.jpg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/71e1d8ef-8bdd-45e3-9a51-4dfb6f7b6f8a-1920w.jpg" alt="">
                 </button>
                 </div>
@@ -745,45 +734,45 @@ div.copyright {
         </article>
 <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1%20%2810%29-1920w.jpeg" alt="Photograph of Dayana at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1%20%2810%29-1920w.jpeg" alt="Fotografía de Dayana en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">DAYANA</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/3%20%286%29-1920w.jpeg" alt="Tattoo by Dayana, image 1.">
+                <img src="/Resources/images/3%20%286%29-1920w.jpeg" alt="Tatuaje realizado por Dayana, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Dayana" target="_blank" rel="noopener">Appointment with Dayana</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Dayana" target="_blank" rel="noopener">Cita con Dayana</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/4%20%286%29-1920w.jpeg" alt="Tattoo by Dayana, image 2.">
+                <img src="/Resources/images/4%20%286%29-1920w.jpeg" alt="Tatuaje realizado por Dayana, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Dayana" target="_blank" rel="noopener">Appointment with Dayana</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Dayana" target="_blank" rel="noopener">Cita con Dayana</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/5%20%285%29-1920w.jpeg" alt="Tattoo by Dayana, image 3.">
+                <img src="/Resources/images/5%20%285%29-1920w.jpeg" alt="Tatuaje realizado por Dayana, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Dayana" target="_blank" rel="noopener">Appointment with Dayana</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Dayana" target="_blank" rel="noopener">Cita con Dayana</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/2%20%282%29-1920w.jpeg" alt="Tattoo by Dayana, image 4.">
+                <img src="/Resources/images/2%20%282%29-1920w.jpeg" alt="Tatuaje realizado por Dayana, imagen 4.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Dayana" target="_blank" rel="noopener">Appointment with Dayana</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Dayana" target="_blank" rel="noopener">Cita con Dayana</a>
             </article>
                 </div>
                 <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
                 <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/3%20%286%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/4%20%286%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/5%20%285%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 4">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 4">
                     <img src="/Resources/images/2%20%282%29-1920w.jpeg" alt="">
                 </button>
                 </div>
@@ -791,45 +780,45 @@ div.copyright {
         </article>
         <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1%20%2812%29-1920w.jpeg" alt="Photograph of Christian at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1%20%2812%29-1920w.jpeg" alt="Fotografía de Christian en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">CHRISTIAN</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/5%20%287%29-1920w.jpeg" alt="Tattoo by Christian, image 1.">
+                <img src="/Resources/images/5%20%287%29-1920w.jpeg" alt="Tatuaje realizado por Christian, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Christian" target="_blank" rel="noopener">Appointment with Christian</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Christian" target="_blank" rel="noopener">Cita con Christian</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/4%20%288%29-1920w.jpeg" alt="Tattoo by Christian, image 2.">
+                <img src="/Resources/images/4%20%288%29-1920w.jpeg" alt="Tatuaje realizado por Christian, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Christian" target="_blank" rel="noopener">Appointment with Christian</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Christian" target="_blank" rel="noopener">Cita con Christian</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/3%20%288%29-1920w.jpeg" alt="Tattoo by Christian, image 3.">
+                <img src="/Resources/images/3%20%288%29-1920w.jpeg" alt="Tatuaje realizado por Christian, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Christian" target="_blank" rel="noopener">Appointment with Christian</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Christian" target="_blank" rel="noopener">Cita con Christian</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/2%20%284%29-1920w.jpeg" alt="Tattoo by Christian, image 4.">
+                <img src="/Resources/images/2%20%284%29-1920w.jpeg" alt="Tatuaje realizado por Christian, imagen 4.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Christian" target="_blank" rel="noopener">Appointment with Christian</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Christian" target="_blank" rel="noopener">Cita con Christian</a>
             </article>
                 </div>
-                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Previous">&#10094;</button>
-                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Next">&#10095;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/5%20%287%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/4%20%288%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/3%20%288%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 4">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 4">
                     <img src="/Resources/images/2%20%284%29-1920w.jpeg" alt="">
                 </button>
                 </div>
@@ -837,45 +826,45 @@ div.copyright {
         </article>
 <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1%20%2811%29-1920w.jpeg" alt="Photograph of Fran at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1%20%2811%29-1920w.jpeg" alt="Fotografía de Fran en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">FRAN</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/4%20%287%29-1920w.jpeg" alt="Tattoo by Fran, image 1.">
+                <img src="/Resources/images/4%20%287%29-1920w.jpeg" alt="Tatuaje realizado por Fran, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Fran" target="_blank" rel="noopener">Appointment with Fran</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Fran%20Salguero" target="_blank" rel="noopener">Cita con Fran</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/3%20%287%29-1920w.jpeg" alt="Tattoo by Fran, image 2.">
+                <img src="/Resources/images/3%20%287%29-1920w.jpeg" alt="Tatuaje realizado por Fran, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Fran" target="_blank" rel="noopener">Appointment with Fran</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Fran%20Salguero" target="_blank" rel="noopener">Cita con Fran</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/2%20%283%29-1920w.jpeg" alt="Tattoo by Fran, image 3.">
+                <img src="/Resources/images/2%20%283%29-1920w.jpeg" alt="Tatuaje realizado por Fran, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Fran" target="_blank" rel="noopener">Appointment with Fran</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Fran%20Salguero" target="_blank" rel="noopener">Cita con Fran</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/5%20%286%29-1920w.jpeg" alt="Tattoo by Fran, image 4.">
+                <img src="/Resources/images/5%20%286%29-1920w.jpeg" alt="Tatuaje realizado por Fran, imagen 4.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Fran" target="_blank" rel="noopener">Appointment with Fran</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Fran%20Salguero" target="_blank" rel="noopener">Cita con Fran</a>
             </article>
                 </div>
                 <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
                 <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/4%20%287%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/3%20%287%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/2%20%283%29-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 4">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 4">
                     <img src="/Resources/images/5%20%286%29-1920w.jpeg" alt="">
                 </button>
                 </div>
@@ -883,45 +872,45 @@ div.copyright {
         </article>
 <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1%20%288%29-1920w.jpeg" alt="Photograph of Buchi at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1%20%288%29-1920w.jpeg" alt="Fotografía de Buchi en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">BUCHI</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/5%20%282%29-5b1252c7-1920w.jpeg" alt="Tattoo by Buchi, image 1.">
+                <img src="/Resources/images/5%20%282%29-5b1252c7-1920w.jpeg" alt="Tatuaje realizado por Buchi, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Buchi" target="_blank" rel="noopener">Appointment with Buchi</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Buchi" target="_blank" rel="noopener">Cita con Buchi</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/4%20%283%29-0fa427cf-1920w.jpeg" alt="Tattoo by Buchi, image 2.">
+                <img src="/Resources/images/4%20%283%29-0fa427cf-1920w.jpeg" alt="Tatuaje realizado por Buchi, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Buchi" target="_blank" rel="noopener">Appointment with Buchi</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Buchi" target="_blank" rel="noopener">Cita con Buchi</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/3%20%283%29-ff7a7f81-1920w.jpeg" alt="Tattoo by Buchi, image 3.">
+                <img src="/Resources/images/3%20%283%29-ff7a7f81-1920w.jpeg" alt="Tatuaje realizado por Buchi, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Buchi" target="_blank" rel="noopener">Appointment with Buchi</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Buchi" target="_blank" rel="noopener">Cita con Buchi</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/2%20%282%29-ea223505-1920w.jpeg" alt="Tattoo by Buchi, image 4.">
+                <img src="/Resources/images/2%20%282%29-ea223505-1920w.jpeg" alt="Tatuaje realizado por Buchi, imagen 4.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Buchi" target="_blank" rel="noopener">Appointment with Buchi</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Buchi" target="_blank" rel="noopener">Cita con Buchi</a>
             </article>
                 </div>
-                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Previous">&#10094;</button>
-                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Next">&#10095;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/5%20%282%29-5b1252c7-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/4%20%283%29-0fa427cf-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/3%20%283%29-ff7a7f81-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 4">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 4">
                     <img src="/Resources/images/2%20%282%29-ea223505-1920w.jpeg" alt="">
                 </button>
                 </div>
@@ -929,53 +918,53 @@ div.copyright {
         </article>
 <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1%20%287%29-1920w.jpeg" alt="Photograph of Janette at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1%20%287%29-1920w.jpeg" alt="Fotografía de Janette en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">JANETTE</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/9de6169b-9038-498c-a40c-859ab9d88e7e-1920w.jpg" alt="Tattoo by Janette, image 1.">
+                <img src="/Resources/images/9de6169b-9038-498c-a40c-859ab9d88e7e-1920w.jpg" alt="Tatuaje realizado por Janette, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Janette" target="_blank" rel="noopener">Appointment with Janette</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Janette%20Suarez" target="_blank" rel="noopener">Cita con Janette</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/408ae6a2-9462-4adb-b8fe-d81811344e14-1920w.jpg" alt="Tattoo by Janette, image 2.">
+                <img src="/Resources/images/408ae6a2-9462-4adb-b8fe-d81811344e14-1920w.jpg" alt="Tatuaje realizado por Janette, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Janette" target="_blank" rel="noopener">Appointment with Janette</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Janette%20Suarez" target="_blank" rel="noopener">Cita con Janette</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/215f7452-fc4f-43e1-aa0d-ca79bf30e896-1920w.jpg" alt="Tattoo by Janette, image 3.">
+                <img src="/Resources/images/215f7452-fc4f-43e1-aa0d-ca79bf30e896-1920w.jpg" alt="Tatuaje realizado por Janette, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Janette" target="_blank" rel="noopener">Appointment with Janette</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Janette%20Suarez" target="_blank" rel="noopener">Cita con Janette</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/0f614bf8-5776-43b7-9c3d-08e03f74487e-1920w.jpg" alt="Tattoo by Janette, image 4.">
+                <img src="/Resources/images/0f614bf8-5776-43b7-9c3d-08e03f74487e-1920w.jpg" alt="Tatuaje realizado por Janette, imagen 4.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Janette" target="_blank" rel="noopener">Appointment with Janette</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Janette%20Suarez" target="_blank" rel="noopener">Cita con Janette</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/5a0bb6ea-0895-4d77-b42b-956ebdffe8ff-1920w.jpg" alt="Tattoo by Janette, image 5.">
+                <img src="/Resources/images/5a0bb6ea-0895-4d77-b42b-956ebdffe8ff-1920w.jpg" alt="Tatuaje realizado por Janette, imagen 5.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Janette" target="_blank" rel="noopener">Appointment with Janette</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Janette%20Suarez" target="_blank" rel="noopener">Cita con Janette</a>
             </article>
                 </div>
-                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Previous">&#10094;</button>
-                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Next">&#10095;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/9de6169b-9038-498c-a40c-859ab9d88e7e-1920w.jpg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/408ae6a2-9462-4adb-b8fe-d81811344e14-1920w.jpg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/215f7452-fc4f-43e1-aa0d-ca79bf30e896-1920w.jpg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 4">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 4">
                     <img src="/Resources/images/0f614bf8-5776-43b7-9c3d-08e03f74487e-1920w.jpg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 5">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 5">
                     <img src="/Resources/images/5a0bb6ea-0895-4d77-b42b-956ebdffe8ff-1920w.jpg" alt="">
                 </button>
                 </div>
@@ -983,45 +972,45 @@ div.copyright {
         </article>
 <article class="veneno-artist-card">
             <div class="veneno-artist-portrait">
-                <img src="/Resources/images/1-53c2d969-1920w.jpeg" alt="Photograph of Armorskin at Veneno Tattoo The Gallery.">
+                <img src="/Resources/images/1-53c2d969-1920w.jpeg" alt="Fotografía de Armorskin en Veneno Tattoo The Gallery.">
             </div>
             <h2 class="veneno-artist-name">ARMORSKIN</h2>
             <div class="veneno-artist-carousel" data-autoplay="4000">
                 <div class="veneno-artist-slides">
 <article class="veneno-artist-slide is-active">
-                <img src="/Resources/images/4%20%282%29-00834089-1920w.jpeg" alt="Tattoo by Armorskin, image 1.">
+                <img src="/Resources/images/4%20%282%29-00834089-1920w.jpeg" alt="Tatuaje realizado por Armorskin, imagen 1.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Armorskin" target="_blank" rel="noopener">Appointment with Armorskin</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Armorskin" target="_blank" rel="noopener">Cita con Armorskin</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/5%20%281%29-fd0a962e-1920w.jpeg" alt="Tattoo by Armorskin, image 2.">
+                <img src="/Resources/images/5%20%281%29-fd0a962e-1920w.jpeg" alt="Tatuaje realizado por Armorskin, imagen 2.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Armorskin" target="_blank" rel="noopener">Appointment with Armorskin</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Armorskin" target="_blank" rel="noopener">Cita con Armorskin</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/2%20%281%29-7c92af5c-1920w.jpeg" alt="Tattoo by Armorskin, image 3.">
+                <img src="/Resources/images/2%20%281%29-7c92af5c-1920w.jpeg" alt="Tatuaje realizado por Armorskin, imagen 3.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Armorskin" target="_blank" rel="noopener">Appointment with Armorskin</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Armorskin" target="_blank" rel="noopener">Cita con Armorskin</a>
             </article>
 <article class="veneno-artist-slide">
-                <img src="/Resources/images/3%20%282%29-1e4f605e-1920w.jpeg" alt="Tattoo by Armorskin, image 4.">
+                <img src="/Resources/images/3%20%282%29-1e4f605e-1920w.jpeg" alt="Tatuaje realizado por Armorskin, imagen 4.">
                 <div class="veneno-artist-overlay"></div>
-                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hi%2C%20I%20just%20visited%20the%20website%20and%20would%20like%20to%20schedule%20an%20appointment%20with%20Armorskin" target="_blank" rel="noopener">Appointment with Armorskin</a>
+                <a class="veneno-artist-booking" href="https://wa.me/34640134968?text=Hola%2C%20acabo%20de%20visitar%20la%20web%20y%20me%20gustar%C3%ADa%20agendar%20una%20cita%20con%20Armorskin" target="_blank" rel="noopener">Cita con Armorskin</a>
             </article>
                 </div>
-                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Previous">&#10094;</button>
-                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Next">&#10095;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-prev" aria-label="Anterior">&#10094;</button>
+                <button type="button" class="veneno-artist-arrow veneno-artist-next" aria-label="Siguiente">&#10095;</button>
                 <div class="veneno-artist-thumbs">
-<button type="button" class="veneno-artist-thumb is-active" aria-label="Show image 1">
+<button type="button" class="veneno-artist-thumb is-active" aria-label="Mostrar imagen 1">
                     <img src="/Resources/images/4%20%282%29-00834089-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 2">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 2">
                     <img src="/Resources/images/5%20%281%29-fd0a962e-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 3">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 3">
                     <img src="/Resources/images/2%20%281%29-7c92af5c-1920w.jpeg" alt="">
                 </button>
-<button type="button" class="veneno-artist-thumb" aria-label="Show image 4">
+<button type="button" class="veneno-artist-thumb" aria-label="Mostrar imagen 4">
                     <img src="/Resources/images/3%20%282%29-1e4f605e-1920w.jpeg" alt="">
                 </button>
                 </div>
@@ -1032,16 +1021,16 @@ div.copyright {
 
 
         <section class="veneno-cta" aria-labelledby="veneno-cta-title">
-            <h2 id="veneno-cta-title">Book with your ideal tattoo artist</h2>
-            <p>Share your idea with us via Instagram or WhatsApp, and we will get back to you as soon as possible with a personalized quote.</p>
-            <a class="veneno-cta-button" href="https://wa.me/34640134968?text=Hello,%20I%20want%20to%20book%20an%20appointment%20for%20a%20tattoo" target="_blank" rel="noopener">BOOK VIA WHATSAPP</a>
+            <h2 id="veneno-cta-title">Reserva con tu tatuador ideal</h2>
+            <p>Compártenos tu idea a través de Instagram o WhatsApp, y te contestaremos lo más pronto posible con un presupuesto a medida.</p>
+            <a class="veneno-cta-button" href="https://wa.me/34640134968?text=Hola,%20quiero%20pedir%20cita%20para%20un%20tatuaje" target="_blank" rel="noopener">PEDIR CITA POR WHATSAPP</a>
         </section>
 
     </main>
 
 </div>
  <div class="dmFooterContainer flex_hfcontainer"> <div id="flex-footer" role="contentinfo"> <div data-layout-section="" data-auto="flex-section" id="1181122729" data-flex-id="4393c9fd"> <div class="flex-widgets-container" id="1757462292"></div> 
- <section id="b5279897" class="flex-element section" data-auto="flex-element-section"> <div id="c59c577e" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="3be7d0b7" class="flex-element group" data-auto="flex-element-group"> <div id="3453b9ef" class="flex-element group" data-auto="flex-element-group"> <div id="1a477c0a" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-external-id="1974482684"> <div class="imageWidget align-center u_1974482684" data-element-type="image" data-widget-type="image" id="1974482684" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/en-gb/home/" id="1356984621" raw_url="/en-gb/home/" data-target-page-alias="home"><img src="/Resources/images/logo-veneno-tattoo-the-gallery-1920w.jpg" alt="Logotipo de calavera verde con tibias cruzadas y la palabra “veneno” sobre fondo negro." id="1072606513" class="" width="209" height="72" data-dm-image-path="/Resources/images/logo-veneno-tattoo-the-gallery.jpg" data-diy-image="" onerror="handleImageLoadError(this)"/></a> 
+ <section id="b5279897" class="flex-element section" data-auto="flex-element-section"> <div id="c59c577e" class="flex-element grid" data-auto="flex-element-grid" data-layout-grid=""> <div id="3be7d0b7" class="flex-element group" data-auto="flex-element-group"> <div id="3453b9ef" class="flex-element group" data-auto="flex-element-group"> <div id="1a477c0a" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="image" data-external-id="1974482684"> <div class="imageWidget align-center u_1974482684" data-element-type="image" data-widget-type="image" id="1974482684" data-binding="W3siYmluZGluZ05hbWUiOiJpbWFnZSIsInZhbHVlIjoic2l0ZV9pbWFnZXMubG9nbyJ9XQ=="> <a href="/" id="1356984621" raw_url="/" data-target-page-alias="home"><img src="/Resources/images/logo-veneno-tattoo-the-gallery-1920w.jpg" alt="Logotipo de calavera verde con tibias cruzadas y la palabra “veneno” sobre fondo negro." id="1072606513" class="" width="209" height="72" data-dm-image-path="/Resources/images/logo-veneno-tattoo-the-gallery.jpg" data-diy-image="" onerror="handleImageLoadError(this)"/></a> 
 </div> 
 </div> 
  <div id="484df086" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="socialhub" data-external-id="1645418783"> <div class="align-center text-align-center u_1645418783 dmSocialHub gapSpacing" id="1645418783" dmle_extension="social_hub" data-element-type="social_hub" data-binding="W3siYmluZGluZ05hbWUiOiJzb2NpYWwiLCJ2YWx1ZSI6ImNvbnRlbnRfbGlicmFyeS5nbG9iYWwuc29jaWFsIn1d" wr="true" networks="" icon="true" surround="true" adwords="" data-editor="eyJ0aXRsZSI6IiIsImRpc3BsYXlUaXRsZSI6dHJ1ZSwiZm9yY2VEaXNwbGF5IjpmYWxzZSwibGF5b3V0IjoiIiwibnVtYmVyT2ZDdXN0b21JY29ucyI6MCwibmV0d29ya3MiOlt7InVybCI6Imh0dHBzOi8vZmFjZWJvb2suY29tL3ZlbmVub3RhdHRvb3N0dWRpbyIsIm9yZGVyIjoyMTQ3NDgzNjQ3LCJjdXN0b20iOmZhbHNlLCJpZCI6ImZhY2Vib29rIiwiaWNvbl9jbGFzcyI6IiIsImljb25fY3VzdG9tIjoiIiwiZGF0YVZhbHVlIjpudWxsfSx7InVybCI6Imh0dHBzOi8vaW5zdGFncmFtLmNvbS92ZW5lbm90YXR0b29zdHVkaW8vIiwib3JkZXIiOjIxNDc0ODM2NDcsImN1c3RvbSI6ZmFsc2UsImlkIjoiaW5zdGFncmFtIiwiaWNvbl9jbGFzcyI6IiIsImljb25fY3VzdG9tIjoiIiwiZGF0YVZhbHVlIjpudWxsfSx7InVybCI6IiszNDY0MDEzNDk2OCIsIm9yZGVyIjoyMTQ3NDgzNjQ3LCJjdXN0b20iOmZhbHNlLCJpZCI6IndoYXRzYXBwIiwiaWNvbl9jbGFzcyI6IiIsImljb25fY3VzdG9tIjoiIiwiZGF0YVZhbHVlIjpudWxsfV0sImljb25zX3N0eWxlIjoiNiIsImRhdGEtaWNvbnMtaG92ZXItZWZmZWN0IjoiZmxvYXQiLCJhbGxfcGFnZXMiOmZhbHNlfQ=="> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/venenotattoostudio" target="_blank" aria-label="facebook" onclick="dm_gaq_push_event && dm_gaq_push_event('socialLink', 'click', 'Facebook')"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect="float"></span> 
@@ -1055,23 +1044,23 @@ div.copyright {
 </div> 
 </div> 
 </div> 
- <div id="group_2rl" class="flex-element group" data-auto="flex-element-group"> <div id="widget_6fm" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="254045601"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="254045601" style=""> <p class="text-align-left m-text-align-center"> <span style="color: var(--color_3); display: unset;">NAVEGATION</span> 
+ <div id="group_2rl" class="flex-element group" data-auto="flex-element-group"> <div id="widget_6fm" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="254045601"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="254045601" style=""> <p class="text-align-left m-text-align-center"> <span style="color: var(--color_3); display: unset;">NAVEGACI&Oacute;N</span> 
 </p> 
 </div> 
 </div> 
- <div id="3e67a038" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1334280917"> <nav class="u_1334280917 unifiednav_vertical effect-text-fill main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1334280917" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" data-direction="LEFT" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" is-build-your-own="false" data-build-your-own="W3sidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxOTA4Mjg0X2l0ZW0iLCJsYWJlbCI6IkF2aXNvIGxlZ2FsIiwiaHJlZiI6Ii9zaXRlLzkyMWIzNTM1NGQ3ZTQ5MmM5YTIxMDIxZmJiNGNkNWJlL2F2aXNvLWxlZ2FsIiwidmFsdWUiOiJhdmlzby1sZWdhbCIsInRhcmdldCI6bnVsbCwiaXRlbXMiOltdLCJwb3B1cF90YXJnZXQiOm51bGwsImFuY2hvcl9ibG9nX3Bvc3RfaWQiOm51bGx9LHsidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxMjkxNDA1X2l0ZW0iLCJsYWJlbCI6IlBvbMOtdGljYSBkZSBwcml2YWNpZGFkIiwiaHJlZiI6Ii9zaXRlLzkyMWIzNTM1NGQ3ZTQ5MmM5YTIxMDIxZmJiNGNkNWJlL3BvbGl0aWNhLWRlLXByaXZhY2lkYWQiLCJ2YWx1ZSI6InBvbGl0aWNhLWRlLXByaXZhY2lkYWQiLCJ0YXJnZXQiOm51bGwsIml0ZW1zIjpbXSwicG9wdXBfdGFyZ2V0IjpudWxsLCJhbmNob3JfYmxvZ19wb3N0X2lkIjpudWxsfSx7InR5cGUiOiJwYWdlIiwibmF2SWQiOiJkbV9uYXZHcm91cDAxMDEwMTQ1NTYxNF9pdGVtIiwibGFiZWwiOiJQb2zDrXRpY2EgZGUgY29va2llcyIsImhyZWYiOiIvc2l0ZS85MjFiMzUzNTRkN2U0OTJjOWEyMTAyMWZiYjRjZDViZS9wb2xpdGljYS1kZS1jb29raWVzIiwidmFsdWUiOiJwb2xpdGljYS1kZS1jb29raWVzIiwidGFyZ2V0IjpudWxsLCJpdGVtcyI6W10sInBvcHVwX3RhcmdldCI6bnVsbCwiYW5jaG9yX2Jsb2dfcG9zdF9pZCI6bnVsbH0seyJ0eXBlIjoicGFnZSIsIm5hdklkIjoiZG1fbmF2R3JvdXAwMTAxMDEzMTkwMl9pdGVtIiwibGFiZWwiOiJEZWNsYXJhY2nDs24gZGUgYWNjZXNpYmlsaWRhZCIsImhyZWYiOiIvc2l0ZS85MjFiMzUzNTRkN2U0OTJjOWEyMTAyMWZiYjRjZDViZS9kZWNsYXJhY2lvbi1kZS1hY2Nlc2liaWxpZGFkIiwidmFsdWUiOiJkZWNsYXJhY2lvbi1kZS1hY2Nlc2liaWxpZGFkIiwidGFyZ2V0IjpudWxsLCJpdGVtcyI6W10sInBvcHVwX3RhcmdldCI6bnVsbCwiYW5jaG9yX2Jsb2dfcG9zdF9pZCI6bnVsbH1d"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/home/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641993  " target="" data-target-page-alias="home" raw_url="/en-gb/home/"> <span class="nav-item-text " data-link-text="Home" data-auto="page-text-style">Home <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+ <div id="3e67a038" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1334280917"> <nav class="u_1334280917 unifiednav_vertical effect-text-fill main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1334280917" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" data-direction="LEFT" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" is-build-your-own="false" data-build-your-own="W3sidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxOTA4Mjg0X2l0ZW0iLCJsYWJlbCI6IkF2aXNvIGxlZ2FsIiwiaHJlZiI6Ii9zaXRlLzkyMWIzNTM1NGQ3ZTQ5MmM5YTIxMDIxZmJiNGNkNWJlL2F2aXNvLWxlZ2FsIiwidmFsdWUiOiJhdmlzby1sZWdhbCIsInRhcmdldCI6bnVsbCwiaXRlbXMiOltdLCJwb3B1cF90YXJnZXQiOm51bGwsImFuY2hvcl9ibG9nX3Bvc3RfaWQiOm51bGx9LHsidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxMjkxNDA1X2l0ZW0iLCJsYWJlbCI6IlBvbMOtdGljYSBkZSBwcml2YWNpZGFkIiwiaHJlZiI6Ii9zaXRlLzkyMWIzNTM1NGQ3ZTQ5MmM5YTIxMDIxZmJiNGNkNWJlL3BvbGl0aWNhLWRlLXByaXZhY2lkYWQiLCJ2YWx1ZSI6InBvbGl0aWNhLWRlLXByaXZhY2lkYWQiLCJ0YXJnZXQiOm51bGwsIml0ZW1zIjpbXSwicG9wdXBfdGFyZ2V0IjpudWxsLCJhbmNob3JfYmxvZ19wb3N0X2lkIjpudWxsfSx7InR5cGUiOiJwYWdlIiwibmF2SWQiOiJkbV9uYXZHcm91cDAxMDEwMTQ1NTYxNF9pdGVtIiwibGFiZWwiOiJQb2zDrXRpY2EgZGUgY29va2llcyIsImhyZWYiOiIvc2l0ZS85MjFiMzUzNTRkN2U0OTJjOWEyMTAyMWZiYjRjZDViZS9wb2xpdGljYS1kZS1jb29raWVzIiwidmFsdWUiOiJwb2xpdGljYS1kZS1jb29raWVzIiwidGFyZ2V0IjpudWxsLCJpdGVtcyI6W10sInBvcHVwX3RhcmdldCI6bnVsbCwiYW5jaG9yX2Jsb2dfcG9zdF9pZCI6bnVsbH0seyJ0eXBlIjoicGFnZSIsIm5hdklkIjoiZG1fbmF2R3JvdXAwMTAxMDEzMTkwMl9pdGVtIiwibGFiZWwiOiJEZWNsYXJhY2nDs24gZGUgYWNjZXNpYmlsaWRhZCIsImhyZWYiOiIvc2l0ZS85MjFiMzUzNTRkN2U0OTJjOWEyMTAyMWZiYjRjZDViZS9kZWNsYXJhY2lvbi1kZS1hY2Nlc2liaWxpZGFkIiwidmFsdWUiOiJkZWNsYXJhY2lvbi1kZS1hY2Nlc2liaWxpZGFkIiwidGFyZ2V0IjpudWxsLCJpdGVtcyI6W10sInBvcHVwX3RhcmdldCI6bnVsbCwiYW5jaG9yX2Jsb2dfcG9zdF9pZCI6bnVsbH1d"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/tatuadores/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101641993  " target="" data-target-page-alias="home" raw_url="/"> <span class="nav-item-text " data-link-text="Inicio" data-auto="page-text-style">Inicio <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/tatuadores/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101602714  " target="" data-target-page-alias="tatuadores" raw_url="/en-gb/tatuadores/"> <span class="nav-item-text " data-link-text="Tattoo artists" data-auto="page-text-style">Tattoo artists <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/tatuadores/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101602714  " target="" data-target-page-alias="tatuadores" raw_url="/tatuadores/"> <span class="nav-item-text " data-link-text="Tatuadores" data-auto="page-text-style">Tatuadores <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/el-estudio/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_01010140523  " target="" data-target-page-alias="/en-gb/el-estudio" aria-current="page" data-auto="selected-page" raw_url="/en-gb/el-estudio/"> <span class="nav-item-text " data-link-text="The studio" data-auto="page-text-style">The studio <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/el-estudio/" class="unifiednav__item unav-item unav-top-item  dmNavItemSelected  dmUDNavigationItem_01010140523  " target="" data-target-page-alias="el-estudio" aria-current="page" data-auto="selected-page" raw_url="/el-estudio/"> <span class="nav-item-text " data-link-text="El estudio" data-auto="page-text-style">El estudio <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/contacto/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010132768  " target="" data-target-page-alias="contacto" raw_url="/en-gb/contacto/"> <span class="nav-item-text " data-link-text="Contacto" data-auto="page-text-style">Contact <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contacto/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_01010132768  " target="" data-target-page-alias="contacto" raw_url="/contacto/"> <span class="nav-item-text " data-link-text="Contacto" data-auto="page-text-style">Contacto <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/blog/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101617830  " target="" data-target-page-alias="blog" raw_url="/en-gb/blog/"> <span class="nav-item-text " data-link-text="Blog" data-auto="page-text-style">Blog <span class="icon icon-angle-down"></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/blog/" class="unifiednav__item unav-item unav-top-item  dmUDNavigationItem_010101617830  " target="" data-target-page-alias="blog" raw_url="/blog/"> <span class="nav-item-text " data-link-text="Blog" data-auto="page-text-style">Blog <span class="icon icon-angle-down"></span> 
 </span> 
 </a> 
 </li> 
@@ -1079,20 +1068,20 @@ div.copyright {
 </nav> 
 </div> 
 </div> 
- <div id="f32caa93" class="flex-element group" data-auto="flex-element-group"> <div id="bf0a6fdc" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1337301357"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1337301357" style=""> <p class="m-text-align-center text-align-left"> <span style="display: unset; color: var(--color_3);">LEGAL LINKS</span> 
+ <div id="f32caa93" class="flex-element group" data-auto="flex-element-group"> <div id="bf0a6fdc" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1337301357"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1337301357" style=""> <p class="m-text-align-center text-align-left"> <span style="display: unset; color: var(--color_3);">ENLACES LEGALES</span> 
 </p> 
 </div> 
 </div> 
- <div id="3296c49f" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1296548383"> <nav class="u_1296548383 unifiednav_vertical effect-text-fill main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1296548383" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" data-direction="LEFT" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" is-build-your-own="true" data-build-your-own="W3sidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxOTA4Mjg0X2l0ZW0iLCJsYWJlbCI6IkF2aXNvIGxlZ2FsIiwiaHJlZiI6Ii9zaXRlLzkyMWIzNTM1NGQ3ZTQ5MmM5YTIxMDIxZmJiNGNkNWJlL2F2aXNvLWxlZ2FsIiwidmFsdWUiOiJhdmlzby1sZWdhbCIsInRhcmdldCI6bnVsbCwiaXRlbXMiOltdLCJwb3B1cF90YXJnZXQiOm51bGwsImFuY2hvcl9ibG9nX3Bvc3RfaWQiOm51bGx9LHsidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxMjkxNDA1X2l0ZW0iLCJsYWJlbCI6IlBvbMOtdGljYSBkZSBwcml2YWNpZGFkIiwiaHJlZiI6Ii9zaXRlLzkyMWIzNTM1NGQ3ZTQ5MmM5YTIxMDIxZmJiNGNkNWJlL3BvbGl0aWNhLWRlLXByaXZhY2lkYWQiLCJ2YWx1ZSI6InBvbGl0aWNhLWRlLXByaXZhY2lkYWQiLCJ0YXJnZXQiOm51bGwsIml0ZW1zIjpbXSwicG9wdXBfdGFyZ2V0IjpudWxsLCJhbmNob3JfYmxvZ19wb3N0X2lkIjpudWxsfSx7InR5cGUiOiJwYWdlIiwibmF2SWQiOiJkbV9uYXZHcm91cDAxMDEwMTQ1NTYxNF9pdGVtIiwibGFiZWwiOiJQb2zDrXRpY2EgZGUgY29va2llcyIsImhyZWYiOiIvc2l0ZS85MjFiMzUzNTRkN2U0OTJjOWEyMTAyMWZiYjRjZDViZS9wb2xpdGljYS1kZS1jb29raWVzIiwidmFsdWUiOiJwb2xpdGljYS1kZS1jb29raWVzIiwidGFyZ2V0IjpudWxsLCJpdGVtcyI6W10sInBvcHVwX3RhcmdldCI6bnVsbCwiYW5jaG9yX2Jsb2dfcG9zdF9pZCI6bnVsbH0seyJ0eXBlIjoicGFnZSIsIm5hdklkIjoiZG1fbmF2R3JvdXAwMTAxMDEzMTkwMl9pdGVtIiwibGFiZWwiOiJEZWNsYXJhY2nDs24gZGUgYWNjZXNpYmlsaWRhZCIsImhyZWYiOiIvc2l0ZS85MjFiMzUzNTRkN2U0OTJjOWEyMTAyMWZiYjRjZDViZS9kZWNsYXJhY2lvbi1kZS1hY2Nlc2liaWxpZGFkIiwidmFsdWUiOiJkZWNsYXJhY2lvbi1kZS1hY2Nlc2liaWxpZGFkIiwidGFyZ2V0IjpudWxsLCJpdGVtcyI6W10sInBvcHVwX3RhcmdldCI6bnVsbCwiYW5jaG9yX2Jsb2dfcG9zdF9pZCI6bnVsbH1d"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/aviso-legal/" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="aviso-legal" raw_url="/aviso-legal/"> <span class="nav-item-text " data-link-text="Aviso legal" data-auto="page-text-style">Legal notice <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+ <div id="3296c49f" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="ONELinksMenu" data-external-id="1296548383"> <nav class="u_1296548383 unifiednav_vertical effect-text-fill main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1296548383" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" data-direction="LEFT" icon="true" surround="true" adwords="" navigation-id="unifiedNav" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" data-links-level="0" is-build-your-own="true" data-build-your-own="W3sidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxOTA4Mjg0X2l0ZW0iLCJsYWJlbCI6IkF2aXNvIGxlZ2FsIiwiaHJlZiI6Ii9zaXRlLzkyMWIzNTM1NGQ3ZTQ5MmM5YTIxMDIxZmJiNGNkNWJlL2F2aXNvLWxlZ2FsIiwidmFsdWUiOiJhdmlzby1sZWdhbCIsInRhcmdldCI6bnVsbCwiaXRlbXMiOltdLCJwb3B1cF90YXJnZXQiOm51bGwsImFuY2hvcl9ibG9nX3Bvc3RfaWQiOm51bGx9LHsidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxMjkxNDA1X2l0ZW0iLCJsYWJlbCI6IlBvbMOtdGljYSBkZSBwcml2YWNpZGFkIiwiaHJlZiI6Ii9zaXRlLzkyMWIzNTM1NGQ3ZTQ5MmM5YTIxMDIxZmJiNGNkNWJlL3BvbGl0aWNhLWRlLXByaXZhY2lkYWQiLCJ2YWx1ZSI6InBvbGl0aWNhLWRlLXByaXZhY2lkYWQiLCJ0YXJnZXQiOm51bGwsIml0ZW1zIjpbXSwicG9wdXBfdGFyZ2V0IjpudWxsLCJhbmNob3JfYmxvZ19wb3N0X2lkIjpudWxsfSx7InR5cGUiOiJwYWdlIiwibmF2SWQiOiJkbV9uYXZHcm91cDAxMDEwMTQ1NTYxNF9pdGVtIiwibGFiZWwiOiJQb2zDrXRpY2EgZGUgY29va2llcyIsImhyZWYiOiIvc2l0ZS85MjFiMzUzNTRkN2U0OTJjOWEyMTAyMWZiYjRjZDViZS9wb2xpdGljYS1kZS1jb29raWVzIiwidmFsdWUiOiJwb2xpdGljYS1kZS1jb29raWVzIiwidGFyZ2V0IjpudWxsLCJpdGVtcyI6W10sInBvcHVwX3RhcmdldCI6bnVsbCwiYW5jaG9yX2Jsb2dfcG9zdF9pZCI6bnVsbH0seyJ0eXBlIjoicGFnZSIsIm5hdklkIjoiZG1fbmF2R3JvdXAwMTAxMDEzMTkwMl9pdGVtIiwibGFiZWwiOiJEZWNsYXJhY2nDs24gZGUgYWNjZXNpYmlsaWRhZCIsImhyZWYiOiIvc2l0ZS85MjFiMzUzNTRkN2U0OTJjOWEyMTAyMWZiYjRjZDViZS9kZWNsYXJhY2lvbi1kZS1hY2Nlc2liaWxpZGFkIiwidmFsdWUiOiJkZWNsYXJhY2lvbi1kZS1hY2Nlc2liaWxpZGFkIiwidGFyZ2V0IjpudWxsLCJpdGVtcyI6W10sInBvcHVwX3RhcmdldCI6bnVsbCwiYW5jaG9yX2Jsb2dfcG9zdF9pZCI6bnVsbH1d"> <ul role="menubar" class="unifiednav__container unav-top  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/aviso-legal/" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="aviso-legal" raw_url="/aviso-legal/"> <span class="nav-item-text " data-link-text="Aviso legal" data-auto="page-text-style">Aviso legal <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/politica-de-privacidad/" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="politica-de-privacidad" raw_url="/en-gb/politica-de-privacidad/"> <span class="nav-item-text " data-link-text="Política de privacidad" data-auto="page-text-style">Privacy Policy<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/politica-de-privacidad/" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="politica-de-privacidad" raw_url="/politica-de-privacidad/"> <span class="nav-item-text " data-link-text="Política de privacidad" data-auto="page-text-style">Pol&iacute;tica de privacidad <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/politica-de-cookies/" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="politica-de-cookies" raw_url="/en-gb/politica-de-cookies/"> <span class="nav-item-text " data-link-text="Política de cookies" data-auto="page-text-style">Cookie policy <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/politica-de-cookies/" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="politica-de-cookies" raw_url="/politica-de-cookies/"> <span class="nav-item-text " data-link-text="Política de cookies" data-auto="page-text-style">Pol&iacute;tica de cookies <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
 </span> 
 </a> 
-</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/en-gb/declaracion-de-accesibilidad/" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="declaracion-de-accesibilidad" raw_url="/en-gb/declaracion-de-accesibilidad/"> <span class="nav-item-text " data-link-text="Declaración de accesibilidad" data-auto="page-text-style">Accessibility Statement <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</li><li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/declaracion-de-accesibilidad/" class="unifiednav__item unav-item unav-top-item    " target="" data-target-page-alias="declaracion-de-accesibilidad" raw_url="/declaracion-de-accesibilidad/"> <span class="nav-item-text " data-link-text="Declaración de accesibilidad" data-auto="page-text-style">Declaraci&oacute;n de accesibilidad <span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
 </span> 
 </a> 
 </li> 
@@ -1100,11 +1089,11 @@ div.copyright {
 </nav> 
 </div> 
 </div> 
- <div id="group_29m" class="flex-element group" data-auto="flex-element-group"> <div id="28a25e95" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1151071678"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1151071678" style=""> <p class="text-align-left m-text-align-center"> <span style="color: var(--color_3); display: unset;">LOCATION</span> 
+ <div id="group_29m" class="flex-element group" data-auto="flex-element-group"> <div id="28a25e95" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1151071678"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1151071678" style=""> <p class="text-align-left m-text-align-center"> <span style="color: var(--color_3); display: unset;">UBICACI&Oacute;N</span> 
 </p> 
 </div> 
 </div> 
- <div class="default align-center flexButton u_1807922910 inlineMap" data-type="inlineMap" data-lat="37.3865319" data-lng="-5.965460999999" data-address="Avenida de la Cruz del Campo 18, Sevilla, SEVILLA 41005, España" data-height="" data-msid="" data-mapurl="" data-lang="en" data-color-scheme="" data-zoom="15" data-layout="layout6" data-popup-display="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" data-popup-description="" data-popup-description-visible="false" id="1807922910" dmle_extension="mapextension" data-element-type="mapextension" modedesktop="map" data-binding="W3siYmluZGluZ05hbWUiOiJhZGRyZXNzIiwidmFsdWUiOiJjb250ZW50X2xpYnJhcnkuZ2xvYmFsIn1d" localization_key_addresstodisplay="googleTranslate.SoHax5H.34" modemobile="map" addresstodisplay="Avenida de la Cruz del Campo 18, Sevilla, SEVILLA 41005, España" localization_key_geocompleteaddress="googleTranslate.agkwhyM.33" geocompleteaddress="Avenida de la Cruz del Campo 18, Sevilla, SEVILLA 41005, España" data-popup-display-desktop="" zoom="15" data-popup-display-mobile="" data-display-type="block" layout="layout6" dmmapsource="dm" modetablet="map" wr="true" icon="true" surround="true" description="" adwords="" icon-name="icon-map-marker" street="" city="" country="US" country_full="United States" state="" zip="" business="Nombre de empresa" provider="openstreetmap" lon="-5.965460999999" lat="37.3865319" faddr="Avenida de la Cruz del Campo 18, Sevilla, SEVILLA 41005, España"> <div class="veneno-leaflet-map" style="height: 100%; width: 100%; overflow: hidden; z-index: 0;"></div> 
+ <div class="default align-center flexButton u_1807922910 inlineMap" data-type="inlineMap" data-lat="37.3865319" data-lng="-5.965460999999" data-address="Avenida de la Cruz del Campo 18, Sevilla, SEVILLA 41005, España" data-height="" data-msid="" data-mapurl="" data-lang="es" data-color-scheme="" data-zoom="15" data-layout="layout6" data-popup-display="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" data-popup-description="" data-popup-description-visible="false" id="1807922910" dmle_extension="mapextension" data-element-type="mapextension" modedesktop="map" data-binding="W3siYmluZGluZ05hbWUiOiJhZGRyZXNzIiwidmFsdWUiOiJjb250ZW50X2xpYnJhcnkuZ2xvYmFsIn1d" localization_key_addresstodisplay="googleTranslate.SoHax5H.34" modemobile="map" addresstodisplay="Avenida de la Cruz del Campo 18, Sevilla, SEVILLA 41005, España" localization_key_geocompleteaddress="googleTranslate.agkwhyM.33" geocompleteaddress="Avenida de la Cruz del Campo 18, Sevilla, SEVILLA 41005, España" data-popup-display-desktop="" zoom="15" data-popup-display-mobile="" data-display-type="block" layout="layout6" dmmapsource="dm" modetablet="map" wr="true" icon="true" surround="true" description="" adwords="" icon-name="icon-map-marker" street="" city="" country="US" country_full="United States" state="" zip="" business="Nombre de empresa" provider="openstreetmap" lon="-5.965460999999" lat="37.3865319" faddr="Avenida de la Cruz del Campo 18, Sevilla, SEVILLA 41005, España"> <div class="veneno-leaflet-map" style="height: 100%; width: 100%; overflow: hidden; z-index: 0;"></div> 
 </div> 
 </div> 
 </div> 
@@ -1127,7 +1116,7 @@ div.copyright {
 </div> 
 </div> 
  <div id="989bb5b8" class="flex-element widget-wrapper" data-auto="flex-element-widget-wrapper" data-widget-type="paragraph" data-external-id="1438906449"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1438906449" new-inline-bind-applied="true" data-diy-text="" style=""> <p class="m-text-align-center m-size-12 t-size-12 text-align-left size-12"> <span class="font-size-12 t-font-size-12 m-font-size-12" style="color: rgb(255, 255, 255); display: initial;"> <span class="inline-data-binding" data-encoded-value="VmVuZW5vIFRhdHRvbyBUaGUgR2FsbGVyeQ==" data-inline-binding="content_library.global.company_name" data-inline-binding-encoded="Y29udGVudF9saWJyYXJ5Lmdsb2JhbC5jb21wYW55X25hbWU=">&copy; 2026 Veneno Tattoo The Gallery</span> 
-All rights reserved</span>
+Todos los derechos reservados</span> 
 </p> 
 </div> 
 </div> 
