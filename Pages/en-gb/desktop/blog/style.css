@@ -1255,7 +1255,7 @@ img[width][height] {
   src: local('Arial');
   line-gap-override: 0%;
  }@font-face {
-  font-family: "UnifrakturCook Fallback";
+  font-family: "Cinzel Fallback";
   src: local('Arial');
   ascent-override: 122.3873%;
   descent-override: 33.062%;
