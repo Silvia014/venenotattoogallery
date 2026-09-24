@@ -1858,5 +1858,89 @@ All rights reserved</span>
     });
 })();
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    var carousels = document.querySelectorAll(".veneno-artist-carousel");
+
+    carousels.forEach(function (carousel) {
+
+        var slides = carousel.querySelectorAll(".veneno-artist-slide");
+        var prevButton = carousel.querySelector(".veneno-artist-prev");
+        var nextButton = carousel.querySelector(".veneno-artist-next");
+        var thumbnails = carousel.querySelectorAll(".veneno-artist-thumb");
+
+        if (!slides.length) return;
+
+        var currentIndex = 0;
+        var autoplayTimer = null;
+
+        function showSlide(index) {
+            currentIndex = (index + slides.length) % slides.length;
+
+            slides.forEach(function (slide, i) {
+                slide.classList.toggle("is-active", i === currentIndex);
+            });
+
+            thumbnails.forEach(function (thumb, i) {
+                thumb.classList.toggle("is-active", i === currentIndex);
+            });
+        }
+
+        function nextSlide() {
+            showSlide(currentIndex + 1);
+        }
+
+        function previousSlide() {
+            showSlide(currentIndex - 1);
+        }
+
+        function restartAutoplay() {
+            if (autoplayTimer) {
+                clearInterval(autoplayTimer);
+            }
+
+            autoplayTimer = setInterval(function () {
+                nextSlide();
+            }, 4000);
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                nextSlide();
+                restartAutoplay();
+            });
+        }
+
+        if (prevButton) {
+            prevButton.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                previousSlide();
+                restartAutoplay();
+            });
+        }
+
+        thumbnails.forEach(function (thumbnail, index) {
+            thumbnail.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                showSlide(index);
+                restartAutoplay();
+            });
+        });
+
+        showSlide(0);
+        restartAutoplay();
+
+    });
+
+});
+</script>
+
+</body>
+</html>
 </body> 
 </html> 
