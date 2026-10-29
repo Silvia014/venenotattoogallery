@@ -1251,7 +1251,8 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
         var autoplayTimer = null;
         var prefersReducedMotion = window.matchMedia &&
             window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-        var autoplayPaused = prefersReducedMotion;
+        var isHovered = false;
+        var hasFocus = false;
 
         carousel.setAttribute("role", "region");
         carousel.setAttribute("aria-roledescription", "carrusel");
@@ -1300,7 +1301,7 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
         function restartAutoplay() {
             stopAutoplay();
 
-            if (autoplayPaused || document.hidden) {
+            if (prefersReducedMotion || isHovered || hasFocus || document.hidden) {
                 return;
             }
 
@@ -1310,23 +1311,23 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
         }
 
         carousel.addEventListener("mouseenter", function () {
-            autoplayPaused = true;
+            isHovered = true;
             stopAutoplay();
         });
 
         carousel.addEventListener("mouseleave", function () {
-            autoplayPaused = prefersReducedMotion;
+            isHovered = false;
             restartAutoplay();
         });
 
         carousel.addEventListener("focusin", function () {
-            autoplayPaused = true;
+            hasFocus = true;
             stopAutoplay();
         });
 
         carousel.addEventListener("focusout", function (event) {
             if (!carousel.contains(event.relatedTarget)) {
-                autoplayPaused = prefersReducedMotion;
+                hasFocus = false;
                 restartAutoplay();
             }
         });
