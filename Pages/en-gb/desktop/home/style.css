@@ -2126,3 +2126,12 @@ img[width][height] {
         transition: none !important;
     }
 }
+
+
+/* Keep language flags square to match their 1:1 source images. */
+.desktopMultilingual .language > a > img {
+    width: 24px !important;
+    height: 24px !important;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
