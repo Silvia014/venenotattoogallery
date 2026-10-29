@@ -1640,36 +1640,6 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
         });
 
         /* Start */
-        carousel.addEventListener("mouseenter", function () {
-            isHovered = true;
-            clearInterval(autoplayTimer);
-        });
-
-        carousel.addEventListener("mouseleave", function () {
-            isHovered = false;
-            restartAutoplay();
-        });
-
-        carousel.addEventListener("focusin", function () {
-            hasFocus = true;
-            clearInterval(autoplayTimer);
-        });
-
-        carousel.addEventListener("focusout", function (event) {
-            if (!carousel.contains(event.relatedTarget)) {
-                hasFocus = false;
-                restartAutoplay();
-            }
-        });
-
-        document.addEventListener("visibilitychange", function () {
-            if (document.hidden) {
-                clearInterval(autoplayTimer);
-            } else {
-                restartAutoplay();
-            }
-        });
-
         showSlide(0);
         restartAutoplay();
     }
