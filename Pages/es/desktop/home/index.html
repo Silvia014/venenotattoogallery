@@ -1018,6 +1018,12 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
         &#10095;
     </button>
 <style>
+@media (prefers-reduced-motion: reduce) {
+    #venenoIdeasCarousel .veneno-ideas-slide {
+        transition: none !important;
+    }
+}
+
 #widget_ots.veneno-custom-slider-wrapper {
     width: 100% !important;
     max-width: 100% !important;
@@ -1243,6 +1249,22 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
         var currentIndex = 0;
         var autoplayTimer = null;
+        var prefersReducedMotion = window.matchMedia &&
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var autoplayPaused = prefersReducedMotion;
+
+        carousel.setAttribute("role", "region");
+        carousel.setAttribute("aria-roledescription", "carrusel");
+        carousel.setAttribute("aria-label", "Ideas de Veneno Tattoo");
+
+        slides.forEach(function (slide, index) {
+            slide.setAttribute("role", "group");
+            slide.setAttribute("aria-roledescription", "diapositiva");
+            slide.setAttribute(
+                "aria-label",
+                "Diapositiva " + (index + 1) + " de " + slides.length
+            );
+        });
 
         function showSlide(index) {
 
@@ -1256,6 +1278,7 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             dots.forEach(function (dot, i) {
                 dot.classList.toggle("is-active", i === currentIndex);
+                dot.setAttribute("aria-current", i === currentIndex ? "true" : "false");
             });
         }
 
@@ -1267,14 +1290,54 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
             showSlide(currentIndex - 1);
         }
 
+        function stopAutoplay() {
+            if (autoplayTimer !== null) {
+                window.clearInterval(autoplayTimer);
+                autoplayTimer = null;
+            }
+        }
+
         function restartAutoplay() {
+            stopAutoplay();
 
-            clearInterval(autoplayTimer);
+            if (autoplayPaused || document.hidden) {
+                return;
+            }
 
-            autoplayTimer = setInterval(function () {
+            autoplayTimer = window.setInterval(function () {
                 nextSlide();
             }, 5000);
         }
+
+        carousel.addEventListener("mouseenter", function () {
+            autoplayPaused = true;
+            stopAutoplay();
+        });
+
+        carousel.addEventListener("mouseleave", function () {
+            autoplayPaused = prefersReducedMotion;
+            restartAutoplay();
+        });
+
+        carousel.addEventListener("focusin", function () {
+            autoplayPaused = true;
+            stopAutoplay();
+        });
+
+        carousel.addEventListener("focusout", function (event) {
+            if (!carousel.contains(event.relatedTarget)) {
+                autoplayPaused = prefersReducedMotion;
+                restartAutoplay();
+            }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                stopAutoplay();
+            } else {
+                restartAutoplay();
+            }
+        });
 
         /* Create dots */
         dotsContainer.innerHTML = "";
