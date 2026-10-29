@@ -334,6 +334,21 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
         var currentIndex = 0;
         var autoplayTimer;
+        var prefersReducedMotion = window.matchMedia &&
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var isHovered = false;
+        var hasFocus = false;
+
+        carousel.setAttribute("role", "region");
+        carousel.setAttribute("aria-roledescription", "carrusel");
+        carousel.setAttribute("aria-label", "Galería de estilos de tatuaje");
+
+        slides.forEach(function (slide, index) {
+            slide.setAttribute("role", "group");
+            slide.setAttribute("aria-roledescription", "diapositiva");
+            slide.setAttribute("aria-label", "Diapositiva " + (index + 1) + " de " + slides.length);
+            slide.setAttribute("aria-hidden", slide.classList.contains("is-active") ? "false" : "true");
+        });
 
         function showSlide(index) {
 
@@ -341,12 +356,16 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             slides.forEach(function (slide, i) {
                 slide.classList.toggle("is-active", i === currentIndex);
+                slide.setAttribute("aria-hidden", i === currentIndex ? "false" : "true");
             });
         }
 
         function restartAutoplay() {
-
             clearInterval(autoplayTimer);
+
+            if (prefersReducedMotion || isHovered || hasFocus || document.hidden) {
+                return;
+            }
 
             autoplayTimer = setInterval(function () {
                 showSlide(currentIndex + 1);
@@ -367,6 +386,36 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             showSlide(currentIndex + 1);
             restartAutoplay();
+        });
+
+        carousel.addEventListener("mouseenter", function () {
+            isHovered = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("mouseleave", function () {
+            isHovered = false;
+            restartAutoplay();
+        });
+
+        carousel.addEventListener("focusin", function () {
+            hasFocus = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("focusout", function (event) {
+            if (!carousel.contains(event.relatedTarget)) {
+                hasFocus = false;
+                restartAutoplay();
+            }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                clearInterval(autoplayTimer);
+            } else {
+                restartAutoplay();
+            }
         });
 
         showSlide(0);
@@ -433,6 +482,21 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
         var currentIndex = 0;
         var autoplayTimer;
+        var prefersReducedMotion = window.matchMedia &&
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var isHovered = false;
+        var hasFocus = false;
+
+        carousel.setAttribute("role", "region");
+        carousel.setAttribute("aria-roledescription", "carrusel");
+        carousel.setAttribute("aria-label", "Galería de estilos de tatuaje");
+
+        slides.forEach(function (slide, index) {
+            slide.setAttribute("role", "group");
+            slide.setAttribute("aria-roledescription", "diapositiva");
+            slide.setAttribute("aria-label", "Diapositiva " + (index + 1) + " de " + slides.length);
+            slide.setAttribute("aria-hidden", slide.classList.contains("is-active") ? "false" : "true");
+        });
 
         function showSlide(index) {
 
@@ -440,12 +504,16 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             slides.forEach(function (slide, i) {
                 slide.classList.toggle("is-active", i === currentIndex);
+                slide.setAttribute("aria-hidden", i === currentIndex ? "false" : "true");
             });
         }
 
         function restartAutoplay() {
-
             clearInterval(autoplayTimer);
+
+            if (prefersReducedMotion || isHovered || hasFocus || document.hidden) {
+                return;
+            }
 
             autoplayTimer = setInterval(function () {
                 showSlide(currentIndex + 1);
@@ -466,6 +534,36 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             showSlide(currentIndex + 1);
             restartAutoplay();
+        });
+
+        carousel.addEventListener("mouseenter", function () {
+            isHovered = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("mouseleave", function () {
+            isHovered = false;
+            restartAutoplay();
+        });
+
+        carousel.addEventListener("focusin", function () {
+            hasFocus = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("focusout", function (event) {
+            if (!carousel.contains(event.relatedTarget)) {
+                hasFocus = false;
+                restartAutoplay();
+            }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                clearInterval(autoplayTimer);
+            } else {
+                restartAutoplay();
+            }
         });
 
         showSlide(0);
@@ -541,6 +639,21 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
         var currentIndex = 0;
         var autoplayTimer;
+        var prefersReducedMotion = window.matchMedia &&
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var isHovered = false;
+        var hasFocus = false;
+
+        carousel.setAttribute("role", "region");
+        carousel.setAttribute("aria-roledescription", "carrusel");
+        carousel.setAttribute("aria-label", "Galería de estilos de tatuaje");
+
+        slides.forEach(function (slide, index) {
+            slide.setAttribute("role", "group");
+            slide.setAttribute("aria-roledescription", "diapositiva");
+            slide.setAttribute("aria-label", "Diapositiva " + (index + 1) + " de " + slides.length);
+            slide.setAttribute("aria-hidden", slide.classList.contains("is-active") ? "false" : "true");
+        });
 
         function showSlide(index) {
 
@@ -548,12 +661,16 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             slides.forEach(function (slide, i) {
                 slide.classList.toggle("is-active", i === currentIndex);
+                slide.setAttribute("aria-hidden", i === currentIndex ? "false" : "true");
             });
         }
 
         function restartAutoplay() {
-
             clearInterval(autoplayTimer);
+
+            if (prefersReducedMotion || isHovered || hasFocus || document.hidden) {
+                return;
+            }
 
             autoplayTimer = setInterval(function () {
                 showSlide(currentIndex + 1);
@@ -574,6 +691,36 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             showSlide(currentIndex + 1);
             restartAutoplay();
+        });
+
+        carousel.addEventListener("mouseenter", function () {
+            isHovered = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("mouseleave", function () {
+            isHovered = false;
+            restartAutoplay();
+        });
+
+        carousel.addEventListener("focusin", function () {
+            hasFocus = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("focusout", function (event) {
+            if (!carousel.contains(event.relatedTarget)) {
+                hasFocus = false;
+                restartAutoplay();
+            }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                clearInterval(autoplayTimer);
+            } else {
+                restartAutoplay();
+            }
         });
 
         showSlide(0);
@@ -640,6 +787,21 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
         var currentIndex = 0;
         var autoplayTimer;
+        var prefersReducedMotion = window.matchMedia &&
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var isHovered = false;
+        var hasFocus = false;
+
+        carousel.setAttribute("role", "region");
+        carousel.setAttribute("aria-roledescription", "carrusel");
+        carousel.setAttribute("aria-label", "Galería de estilos de tatuaje");
+
+        slides.forEach(function (slide, index) {
+            slide.setAttribute("role", "group");
+            slide.setAttribute("aria-roledescription", "diapositiva");
+            slide.setAttribute("aria-label", "Diapositiva " + (index + 1) + " de " + slides.length);
+            slide.setAttribute("aria-hidden", slide.classList.contains("is-active") ? "false" : "true");
+        });
 
         function showSlide(index) {
 
@@ -647,12 +809,16 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             slides.forEach(function (slide, i) {
                 slide.classList.toggle("is-active", i === currentIndex);
+                slide.setAttribute("aria-hidden", i === currentIndex ? "false" : "true");
             });
         }
 
         function restartAutoplay() {
-
             clearInterval(autoplayTimer);
+
+            if (prefersReducedMotion || isHovered || hasFocus || document.hidden) {
+                return;
+            }
 
             autoplayTimer = setInterval(function () {
                 showSlide(currentIndex + 1);
@@ -673,6 +839,36 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             showSlide(currentIndex + 1);
             restartAutoplay();
+        });
+
+        carousel.addEventListener("mouseenter", function () {
+            isHovered = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("mouseleave", function () {
+            isHovered = false;
+            restartAutoplay();
+        });
+
+        carousel.addEventListener("focusin", function () {
+            hasFocus = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("focusout", function (event) {
+            if (!carousel.contains(event.relatedTarget)) {
+                hasFocus = false;
+                restartAutoplay();
+            }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                clearInterval(autoplayTimer);
+            } else {
+                restartAutoplay();
+            }
         });
 
         showSlide(0);
@@ -768,6 +964,21 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
         var currentIndex = 0;
         var autoplayTimer;
+        var prefersReducedMotion = window.matchMedia &&
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var isHovered = false;
+        var hasFocus = false;
+
+        carousel.setAttribute("role", "region");
+        carousel.setAttribute("aria-roledescription", "carrusel");
+        carousel.setAttribute("aria-label", "Galería de estilos de tatuaje");
+
+        slides.forEach(function (slide, index) {
+            slide.setAttribute("role", "group");
+            slide.setAttribute("aria-roledescription", "diapositiva");
+            slide.setAttribute("aria-label", "Diapositiva " + (index + 1) + " de " + slides.length);
+            slide.setAttribute("aria-hidden", slide.classList.contains("is-active") ? "false" : "true");
+        });
 
         function showSlide(index) {
 
@@ -775,12 +986,16 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             slides.forEach(function (slide, i) {
                 slide.classList.toggle("is-active", i === currentIndex);
+                slide.setAttribute("aria-hidden", i === currentIndex ? "false" : "true");
             });
         }
 
         function restartAutoplay() {
-
             clearInterval(autoplayTimer);
+
+            if (prefersReducedMotion || isHovered || hasFocus || document.hidden) {
+                return;
+            }
 
             autoplayTimer = setInterval(function () {
                 showSlide(currentIndex + 1);
@@ -801,6 +1016,36 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             showSlide(currentIndex + 1);
             restartAutoplay();
+        });
+
+        carousel.addEventListener("mouseenter", function () {
+            isHovered = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("mouseleave", function () {
+            isHovered = false;
+            restartAutoplay();
+        });
+
+        carousel.addEventListener("focusin", function () {
+            hasFocus = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("focusout", function (event) {
+            if (!carousel.contains(event.relatedTarget)) {
+                hasFocus = false;
+                restartAutoplay();
+            }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                clearInterval(autoplayTimer);
+            } else {
+                restartAutoplay();
+            }
         });
 
         showSlide(0);
@@ -876,6 +1121,21 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
         var currentIndex = 0;
         var autoplayTimer;
+        var prefersReducedMotion = window.matchMedia &&
+            window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var isHovered = false;
+        var hasFocus = false;
+
+        carousel.setAttribute("role", "region");
+        carousel.setAttribute("aria-roledescription", "carrusel");
+        carousel.setAttribute("aria-label", "Galería de estilos de tatuaje");
+
+        slides.forEach(function (slide, index) {
+            slide.setAttribute("role", "group");
+            slide.setAttribute("aria-roledescription", "diapositiva");
+            slide.setAttribute("aria-label", "Diapositiva " + (index + 1) + " de " + slides.length);
+            slide.setAttribute("aria-hidden", slide.classList.contains("is-active") ? "false" : "true");
+        });
 
         function showSlide(index) {
 
@@ -890,8 +1150,11 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
         }
 
         function restartAutoplay() {
-
             clearInterval(autoplayTimer);
+
+            if (prefersReducedMotion || isHovered || hasFocus || document.hidden) {
+                return;
+            }
 
             autoplayTimer = setInterval(function () {
                 showSlide(currentIndex + 1);
@@ -914,6 +1177,36 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             showSlide(currentIndex + 1);
             restartAutoplay();
+        });
+
+        carousel.addEventListener("mouseenter", function () {
+            isHovered = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("mouseleave", function () {
+            isHovered = false;
+            restartAutoplay();
+        });
+
+        carousel.addEventListener("focusin", function () {
+            hasFocus = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("focusout", function (event) {
+            if (!carousel.contains(event.relatedTarget)) {
+                hasFocus = false;
+                restartAutoplay();
+            }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                clearInterval(autoplayTimer);
+            } else {
+                restartAutoplay();
+            }
         });
 
         showSlide(0);
@@ -1273,6 +1566,7 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
 
             slides.forEach(function (slide, i) {
                 slide.classList.toggle("is-active", i === currentIndex);
+                slide.setAttribute("aria-hidden", i === currentIndex ? "false" : "true");
             });
 
             var dots = dotsContainer.querySelectorAll(".veneno-ideas-dot");
@@ -1380,6 +1674,36 @@ data-styled.g19[id="sc-eDPEul"]{content:"kjpzQY,"}/*!sc*/</style>
         });
 
         /* Start */
+        carousel.addEventListener("mouseenter", function () {
+            isHovered = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("mouseleave", function () {
+            isHovered = false;
+            restartAutoplay();
+        });
+
+        carousel.addEventListener("focusin", function () {
+            hasFocus = true;
+            clearInterval(autoplayTimer);
+        });
+
+        carousel.addEventListener("focusout", function (event) {
+            if (!carousel.contains(event.relatedTarget)) {
+                hasFocus = false;
+                restartAutoplay();
+            }
+        });
+
+        document.addEventListener("visibilitychange", function () {
+            if (document.hidden) {
+                clearInterval(autoplayTimer);
+            } else {
+                restartAutoplay();
+            }
+        });
+
         showSlide(0);
         restartAutoplay();
     }
