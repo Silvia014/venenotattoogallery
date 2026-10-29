@@ -2119,3 +2119,10 @@ img[width][height] {
         text-align: center !important;
     }
 }
+
+/* Respect users who prefer reduced motion in custom style carousels. */
+@media (prefers-reduced-motion: reduce) {
+    .veneno-style-carousel .veneno-style-slide {
+        transition: none !important;
+    }
+}
