@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Redirect the old malformed tattoo advice URL.
+RewriteRule ^[[:space:]]?todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje/?$ /blog/todo-lo-que-debes-saber-antes-de-hacerte-un-tatuaje/ [R=301,L]
+
 # Homepage
 RewriteRule ^$ Pages/es/desktop/home/index.html [L]
 
