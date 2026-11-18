@@ -614,3 +614,18 @@ img[width][height] {
     }
 }
 
+/* Respect users who prefer reduced motion in custom style carousels. */
+@media (prefers-reduced-motion: reduce) {
+    .veneno-style-carousel .veneno-style-slide {
+        transition: none !important;
+    }
+}
+
+
+/* Keep language flags square to match their 1:1 source images. */
+.desktopMultilingual .language > a > img {
+    width: 24px !important;
+    height: 24px !important;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
