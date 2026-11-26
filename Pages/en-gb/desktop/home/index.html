@@ -234,7 +234,15 @@ div.copyright {
         scheduled = true;
         requestAnimationFrame(function () {
             requestAnimationFrame(function () {
-                video.src = video.dataset.heroSrc;
+                const originalSrc = video.dataset.heroSrc;
+                if (window.matchMedia("(max-width: 767px)").matches) {
+                    video.addEventListener("error", function () {
+                        video.src = originalSrc;
+                    }, { once: true });
+                    video.src = "/Resources/files/veneno-hero-mobile.mp4";
+                } else {
+                    video.src = originalSrc;
+                }
             });
         });
     }
