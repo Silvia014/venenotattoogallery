@@ -674,49 +674,79 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-/* GLOBAL LEAFLET MAP FALLBACK */
+/* Leaflet maps */
 (function () {
-    function initVenenoLeafletMaps() {
-        if (typeof L === "undefined") {
-            setTimeout(initVenenoLeafletMaps, 300);
+    function initMap(container) {
+        if (container.dataset.mapInitialized === "true") return;
+
+        var map = L.map(container).setView([37.3865319, -5.965461], 15);
+        container.dataset.mapInitialized = "true";
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            maxZoom: 19,
+            attribution: "&copy; OpenStreetMap contributors"
+        }).addTo(map);
+
+        L.marker([37.3865319, -5.965461])
+            .addTo(map)
+            .bindPopup("Veneno Tattoo Gallery");
+    }
+
+    function loadLeaflet(onReady) {
+        if (!document.querySelector('link[href*="leaflet.css"]')) {
+            var css = document.createElement("link");
+            css.rel = "stylesheet";
+            css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+            document.head.appendChild(css);
+        }
+
+        if (window.L) {
+            if (onReady) onReady();
             return;
         }
 
-        document.querySelectorAll(".veneno-leaflet-map").forEach(function (container) {
-            if (container.dataset.mapInitialized === "true") return;
+        var script = document.querySelector('script[src*="leaflet@1.9.4"]');
+        if (script) {
+            if (onReady) script.addEventListener("load", onReady, { once: true });
+            return;
+        }
 
-            container.dataset.mapInitialized = "true";
-
-            var map = L.map(container).setView([37.3865319, -5.965461], 15);
-
-            L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-                maxZoom: 19,
-                attribution: "&copy; OpenStreetMap contributors"
-            }).addTo(map);
-
-            L.marker([37.3865319, -5.965461])
-                .addTo(map)
-                .bindPopup("Veneno Tattoo Gallery");
-        });
-    }
-
-    window.addEventListener("load", function () {
-        setTimeout(initVenenoLeafletMaps, 1000);
-    });
-})();
-
-/* LOAD LEAFLET GLOBALLY */
-(function () {
-    if (!document.querySelector('link[href*="leaflet.css"]')) {
-        var css = document.createElement("link");
-        css.rel = "stylesheet";
-        css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
-        document.head.appendChild(css);
-    }
-
-    if (!window.L && !document.querySelector('script[src*="leaflet@1.9.4"]')) {
-        var script = document.createElement("script");
+        script = document.createElement("script");
         script.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+        if (onReady) script.addEventListener("load", onReady, { once: true });
         document.head.appendChild(script);
     }
+
+    function initMaps() {
+        document.querySelectorAll(".veneno-leaflet-map").forEach(initMap);
+    }
+
+    if (document.documentElement.hasAttribute("data-defer-leaflet-map")) {
+        document.addEventListener("DOMContentLoaded", function () {
+            var containers = document.querySelectorAll(".veneno-leaflet-map");
+            if (!containers.length) return;
+            if (!("IntersectionObserver" in window)) {
+                loadLeaflet(initMaps);
+                return;
+            }
+
+            var observer = new IntersectionObserver(function (entries) {
+                if (!entries.some(function (entry) { return entry.isIntersecting; })) return;
+                observer.disconnect();
+                loadLeaflet(initMaps);
+            }, { rootMargin: "200px" });
+
+            containers.forEach(function (container) { observer.observe(container); });
+        }, { once: true });
+        return;
+    }
+
+    loadLeaflet();
+    window.addEventListener("load", function () {
+        function initWhenReady() {
+            if (window.L) initMaps();
+            else setTimeout(initWhenReady, 300);
+        }
+        setTimeout(initWhenReady, 1000);
+    });
 })();
